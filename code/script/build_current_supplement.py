@@ -416,7 +416,7 @@ NP041 selects alert thresholds only on validation probabilities and applies them
 
 ## S21. Literature gap and anonymous reproduction
 
-The verified literature matrix separates NWP ensemble ramps, joint time-distribution ramps, timing/intensity scoring, weather-regime conditioning and probabilistic calibration. The full comparison and official metadata are in temp/literature_gap_verified.md and literature_matrix_30plus.md. The public repository contains the processed aggregate/features/labels, frozen predictions, protocols, score tables, figure manifests and verification scripts. Raw SCADA, turbine-level coordinates, operational-status records and credentials are excluded. A reader can clone the repository anonymously and run the verification scripts without a GitHub account.
+The verified literature matrix separates NWP ensemble ramps, joint time-distribution ramps, timing/intensity scoring, weather-regime conditioning and probabilistic calibration. The full comparison and official metadata are in temp/literature_gap_verified.md and literature_matrix_30plus.md. The public repository https://github.com/longjingpy/wind-power-process-predictability (release v0.1.0) contains the processed aggregate/features/labels, frozen predictions, protocols, score tables, figure manifests and verification scripts. Raw SCADA, turbine-level coordinates, operational-status records and credentials are excluded. A reader can clone the repository anonymously and run the verification scripts without a GitHub account.
 """
     tick = chr(96)
     old_index = "np035_calibration" + tick + " and " + tick + "np036_joint_timing_baseline"
