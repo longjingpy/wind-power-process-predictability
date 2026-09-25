@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes": true,
+    "output_hashes_before_update": true,
+    "fixed_projection_and_training_scalers": true,
+    "feature_dimensions_and_maps": true,
+    "timestamp_noise_determinism": true,
+    "split_and_label_vectors": true,
+    "prediction_shapes_and_normalization": true,
+    "metrics_replayed_from_predictions": true,
+    "paired_7day_2000_ci_replayed": true,
+    "no_score_based_feature_tests": true
+  },
+  "counts": {
+    "feature_maps": 108,
+    "prediction_arrays": 270,
+    "score_rows": 1080,
+    "comparison_rows": 480
+  },
+  "verifier": "script/verify_np038_capacity_matched_information.py"
+}

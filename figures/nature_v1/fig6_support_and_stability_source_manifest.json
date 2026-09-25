@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-24T18:33:13.764556+00:00",
+  "script": "script/build_nature_figures_enhanced.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "figure": "fig6_support_and_stability",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig6_support_and_stability.pdf",
+      "sha256": "d2493bc88efc72b95ca98e33cd1f7eb532d1cd5ab2950ea348b0ee699eab0657"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig6_support_and_stability.svg",
+      "sha256": "63f0e425af19230567bbdb0849f8ce333249358e1b8310ecb1837ea544b08fe7"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig6_support_and_stability.png",
+      "sha256": "2ae2d7613a6ddd10ea95ecec8b0b0ff5d244096de541a63b609bebcb51a4031a"
+    }
+  }
+}

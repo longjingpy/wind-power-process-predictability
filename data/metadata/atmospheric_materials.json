@@ -1,0 +1,230 @@
+{
+  "status": "READ_ONLY_MATERIAL_INVENTORY_NOT_PHYSICAL_VALIDATION",
+  "coordinate_table": {
+    "path": "data/real/whereTurbins.csv",
+    "sha256": "51528d69db7d6b13979f8fc8a1da95225d99342742810026e1656036ba8056b0",
+    "rows": 33,
+    "unique_turbines": 33,
+    "matches_native_ids": true,
+    "projects": [
+      "华润江苏邳州"
+    ],
+    "latitude_min": 34.447227777777776,
+    "latitude_max": 34.54736388888889,
+    "longitude_min": 117.71608055555556,
+    "longitude_max": 117.89945277777778,
+    "unweighted_latitude_mean": 34.50061927609427,
+    "unweighted_longitude_mean": 117.79112281144782,
+    "height_field": "海拔高度 is elevation metadata; it is not the user-provided140m wind height",
+    "role": "Existing repository coordinate table; candidate sensitivity reference; does not replace the user-confirmed administrative primary"
+  },
+  "surface_months": [
+    {
+      "path": "data/era5/raw/era5_202407.nc",
+      "sha256": "52145706d20be1552fce9a6fc7832eec7fd6646f239be64a3c3d4201f824d011",
+      "hours": 744,
+      "first": "2024-07-01 00:00:00",
+      "last": "2024-07-31 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "t2m",
+        "sp",
+        "d2m",
+        "fsr",
+        "u10",
+        "v10",
+        "u100",
+        "v100",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {
+        "u100": "",
+        "t2m": ""
+      }
+    },
+    {
+      "path": "data/era5/raw/era5_202408.nc",
+      "sha256": "4e097d4f95f3d1c617122120b3dcceb6e35b5fe5387b5b25c37a43af5487d980",
+      "hours": 744,
+      "first": "2024-08-01 00:00:00",
+      "last": "2024-08-31 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "t2m",
+        "sp",
+        "d2m",
+        "fsr",
+        "u10",
+        "v10",
+        "u100",
+        "v100",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {
+        "u100": "",
+        "t2m": ""
+      }
+    },
+    {
+      "path": "data/era5/raw/era5_202409.nc",
+      "sha256": "3c294f172124e0d2531beb0bed97d326e6d35a9a60551ddb543889191e9819ec",
+      "hours": 720,
+      "first": "2024-09-01 00:00:00",
+      "last": "2024-09-30 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "t2m",
+        "sp",
+        "d2m",
+        "fsr",
+        "u10",
+        "v10",
+        "u100",
+        "v100",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {
+        "u100": "",
+        "t2m": ""
+      }
+    },
+    {
+      "path": "data/era5/raw/era5_202410.nc",
+      "sha256": "a4fd8fa684f034d3c49f32cc6bb63fe7728a71a7b9eb67c58b50d4744a0ab02c",
+      "hours": 744,
+      "first": "2024-10-01 00:00:00",
+      "last": "2024-10-31 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "2m_temperature",
+        "surface_pressure",
+        "2m_dewpoint_temperature",
+        "forecast_surface_roughness",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {}
+    },
+    {
+      "path": "data/era5/raw/era5_202411.nc",
+      "sha256": "e1555135e18da33322e7cb8deeb0dc31ec78a3e21718e5763e37044c8db7366f",
+      "hours": 720,
+      "first": "2024-11-01 00:00:00",
+      "last": "2024-11-30 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "2m_temperature",
+        "surface_pressure",
+        "2m_dewpoint_temperature",
+        "forecast_surface_roughness",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {}
+    },
+    {
+      "path": "data/era5/raw/era5_202412.nc",
+      "sha256": "0570b4a11334cd344ce83febe64dbc12d5750084a42f8b9ef53b64f66f1ef555",
+      "hours": 744,
+      "first": "2024-12-01 00:00:00",
+      "last": "2024-12-31 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "2m_temperature",
+        "surface_pressure",
+        "2m_dewpoint_temperature",
+        "forecast_surface_roughness",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {}
+    },
+    {
+      "path": "data/era5/raw/era5_202501.nc",
+      "sha256": "d02dd883ab42f358508bea44bae6419bc3ea10915eb1c5d135779d23ff6eab4e",
+      "hours": 744,
+      "first": "2025-01-01 00:00:00",
+      "last": "2025-01-31 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "2m_temperature",
+        "surface_pressure",
+        "2m_dewpoint_temperature",
+        "forecast_surface_roughness",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {}
+    },
+    {
+      "path": "data/era5/raw/era5_202502.nc",
+      "sha256": "3e5353e277239fd47b23e13c52da444a2048d474df03ba8d1a3b381ba018a39f",
+      "hours": 672,
+      "first": "2025-02-01 00:00:00",
+      "last": "2025-02-28 23:00:00",
+      "contains_administrative_reference": true,
+      "contains_all_table_turbines": true,
+      "variables": [
+        "2m_temperature",
+        "surface_pressure",
+        "2m_dewpoint_temperature",
+        "forecast_surface_roughness",
+        "10m_u_component_of_wind",
+        "10m_v_component_of_wind",
+        "100m_u_component_of_wind",
+        "100m_v_component_of_wind",
+        "friction_velocity",
+        "surface_sensible_heat_flux",
+        "surface_latent_heat_flux"
+      ],
+      "global_source": {},
+      "centre": {}
+    }
+  ],
+  "surface_unique_hours": 5832,
+  "surface_gap_hours": 0,
+  "every_surface_month_contains_primary": true,
+  "excluded_gnss_surface": "Representative July2024/January2025 files cover21.5–31.5N; Pizhou34.3403N is outside",
+  "pressure_level_limit": "Representative regional925hPa temperature ends2024-08-31 and does not cover the NP005-009test period",
+  "next_use": "Retrospective independent-weather explanation only; provenance, accumulated-flux semantics and spatial sensitivity must be checked before physical regimes are interpreted"
+}

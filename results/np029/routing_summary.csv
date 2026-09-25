@@ -1,0 +1,13 @@
+lead_minutes,task,metric,candidate,reference,windows,relative_loss_reduction_pct,low,high
+15,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,1.1897268339232214,-1.890878649867409,3.5954421004151693
+15,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,2.4316109422492405,-1.4883955600403675,5.515789473684207
+60,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,2.100405287882956,0.4364694389283203,4.1527299181425175
+60,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,2.5175402393726842,-0.5638603043951085,5.458389390736118
+120,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,1.5515357177769973,0.4504985193559463,2.2340247686255834
+120,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,1.6383370878558234,0.31226508189687613,3.1373285741123413
+240,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,0.3058040324537825,-1.4578130448598792,1.6139834000726605
+240,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,-0.2207062600320997,-2.044046312294777,0.9899947267636142
+480,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,0.7869478970044197,-1.3888205289570792,4.030290402980241
+480,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,1.2723658051689846,-1.4571657325860743,4.962458473066492
+720,downward_timing,conditional_rps,target_aligned_route,joint_timing,3772,2.6384064349589953,-0.7089100374452872,6.419341559241342
+720,downward_timing,conditional_median_mae_minutes,target_aligned_route,joint_timing,3772,2.3853211009174258,-1.1523941982912733,6.953376205787787

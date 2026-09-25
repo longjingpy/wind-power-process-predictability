@@ -1,0 +1,121 @@
+{
+  "experiment": "NP038",
+  "stage": "CORRECTED_CAPACITY_MATCHED_INFORMATION",
+  "question": "Does the information-to-process pattern persist after matching compact weather representations and no-information controls by feature dimension?",
+  "packages": [
+    "np025",
+    "np028"
+  ],
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "robust_leads": [
+    15,
+    240,
+    720
+  ],
+  "arms": [
+    "power20",
+    "weather_raw72",
+    "joint_raw88",
+    "weather_summary20",
+    "weather_projection20",
+    "noise20",
+    "power_weather_summary40",
+    "power_weather_projection40",
+    "power_noise40"
+  ],
+  "dimensions": {
+    "power20": 20,
+    "weather_raw72": 72,
+    "joint_raw88": 88,
+    "weather_summary20": 20,
+    "weather_projection20": 20,
+    "noise20": 20,
+    "power_weather_summary40": 40,
+    "power_weather_projection40": 40,
+    "power_noise40": 40
+  },
+  "event_model": "ExtraTrees 150 trees, max_depth=16, min_samples_leaf=32, max_features=1.0; primary seed 41",
+  "timing_model": "ExtraTrees 100 trees, max_depth=16, min_samples_leaf=16, max_features=1.0; primary seed 43",
+  "robust_seeds": {
+    "event": [
+      41,
+      42,
+      43
+    ],
+    "timing": [
+      43,
+      44,
+      45
+    ],
+    "pairs": [
+      [
+        41,
+        43
+      ],
+      [
+        42,
+        44
+      ],
+      [
+        43,
+        45
+      ]
+    ]
+  },
+  "projection": "fixed QR projection of 68 standardized weather columns to 16 columns; QR seed 20250925; scaler fitted on training rows only per package/lead",
+  "noise": "16 independent standard-normal columns keyed by SHA256(timestamp_ns); the same timestamp produces the same row across leads and packages",
+  "combined_dimensions": "power20 concatenated with each weather20; the four calendar columns are retained twice by construction",
+  "split": "Frozen chronological train/validation/test masks from NP025/NP028; validation is retained for provenance and no test tuning is performed",
+  "uncertainty": "Paired 7-day calendar-block bootstrap, 2,000 draws, seed 41; timing metrics use arrival_down < 16 rows",
+  "comparisons": [
+    {
+      "name": "joint_vs_power",
+      "candidate": "joint_raw88",
+      "reference": "power20"
+    },
+    {
+      "name": "weather_summary20_vs_noise20",
+      "candidate": "weather_summary20",
+      "reference": "noise20"
+    },
+    {
+      "name": "weather_projection20_vs_noise20",
+      "candidate": "weather_projection20",
+      "reference": "noise20"
+    },
+    {
+      "name": "power_weather_summary40_vs_power_noise40",
+      "candidate": "power_weather_summary40",
+      "reference": "power_noise40"
+    },
+    {
+      "name": "power_weather_projection40_vs_power_noise40",
+      "candidate": "power_weather_projection40",
+      "reference": "power_noise40"
+    }
+  ],
+  "correction": {
+    "archived_preliminary_output": "temp/np038_capacity_matched_information_defective_20260925",
+    "joint_raw88": "uses frozen dataset joint_x exactly 88 columns; preliminary concatenation produced 92",
+    "projection_scaling": "training-only per package/lead mean/std before fixed QR projection",
+    "retrospective": true,
+    "pre_registration_timestamp_created": false
+  },
+  "source_sha256": {
+    "script/run_np038_capacity_matched_information.py": "9447c5d7524256eaa61785bf07bbe442659c46af051eb58e60d45abaf8afd7c2",
+    "outputs/next_paper/np025/dataset.npz": "6ffc2ab4c59f1d3852e65fcc8d762911e8ad5245161738b69ee7302be803ee94",
+    "outputs/next_paper/np025/protocol.json": "81696eb316930e60280ae457bc924475e8d4d206adf95211931cfd9e3dfb68b7",
+    "outputs/next_paper/np025/result_manifest.json": "3ce47d8b9918e30544a286f20c00d968eefec9d9d4fb7d08544fab4ae01554ee",
+    "outputs/next_paper/np028/dataset.npz": "d73276ae014af0086e58838c5bceb308582dfc2efc5b34192d86449234fa1c54",
+    "outputs/next_paper/np028/protocol.json": "8d2a91975675da06cecb651b408aedaf1f6c2145337570a51dbfbf993894fae6",
+    "outputs/next_paper/np028/result_manifest.json": "f592e685f99c7adf3ea40b8db5e99f1eb2342a81347141adbd5cc0c7cbc44923"
+  },
+  "status": "COMPLETE_VERIFIED"
+}

@@ -1,0 +1,13 @@
+lead_minutes,task,metric,max_absolute_loss_difference
+15,event,return_brier,0.0
+15,event,multiclass_brier,0.0
+60,event,return_brier,0.0
+60,event,multiclass_brier,0.0
+120,event,return_brier,0.0
+120,event,multiclass_brier,0.0
+240,event,return_brier,0.0
+240,event,multiclass_brier,0.0
+480,event,return_brier,0.0
+480,event,multiclass_brier,0.0
+720,event,return_brier,0.0
+720,event,multiclass_brier,0.0

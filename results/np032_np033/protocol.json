@@ -1,0 +1,15 @@
+{
+  "experiment": "NP032/NP033",
+  "question_seed": "Are information increments stable across three model seeds?",
+  "question_month": "Do frozen information increments persist across calendar months?",
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "packages": [
+    "np025",
+    "np028"
+  ],
+  "status": "COMPLETE"
+}

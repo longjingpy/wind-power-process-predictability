@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "frozen_np026_inputs": true,
+    "no_refit_or_month_selection": true,
+    "three_utc_months": true,
+    "six_leads": true,
+    "monthly_scores_recomputed": true,
+    "intermediate_rps_same_sign": true,
+    "intermediate_mae_same_sign": true,
+    "full_matrix_retained": true
+  },
+  "summary_rows": 36,
+  "months": [
+    "2024-06",
+    "2024-07",
+    "2024-08"
+  ]
+}

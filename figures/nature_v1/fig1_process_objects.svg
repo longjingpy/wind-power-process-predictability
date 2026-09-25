@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="418.95pt" height="165.1968pt" viewBox="0 0 418.95 165.1968" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-24T14:26:04.218875</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 165.1968 
+L 418.95 165.1968 
+L 418.95 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.50146 56.058163 
+L 111.143627 56.058163 
+Q 114.066676 56.058163 114.066676 52.288243 
+L 114.066676 36.002189 
+Q 114.066676 32.232269 111.143627 32.232269 
+L 15.50146 32.232269 
+Q 12.57841 32.232269 12.57841 36.002189 
+L 12.57841 52.288243 
+Q 12.57841 56.058163 15.50146 56.058163 
+z
+" clip-path="url(#p2e26aac70b)" style="fill: #fff7f0; stroke: #d55e00; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 15.50146 87.725491 
+L 111.143627 87.725491 
+Q 114.066676 87.725491 114.066676 83.955571 
+L 114.066676 67.669517 
+Q 114.066676 63.899597 111.143627 63.899597 
+L 15.50146 63.899597 
+Q 12.57841 63.899597 12.57841 67.669517 
+L 12.57841 83.955571 
+Q 12.57841 87.725491 15.50146 87.725491 
+z
+" clip-path="url(#p2e26aac70b)" style="fill: #f1faf6; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 15.50146 119.392819 
+L 111.143627 119.392819 
+Q 114.066676 119.392819 114.066676 115.622899 
+L 114.066676 99.336845 
+Q 114.066676 95.566925 111.143627 95.566925 
+L 15.50146 95.566925 
+Q 12.57841 95.566925 12.57841 99.336845 
+L 12.57841 115.622899 
+Q 12.57841 119.392819 15.50146 119.392819 
+z
+" clip-path="url(#p2e26aac70b)" style="fill: #f1f6fc; stroke: #2166ac; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 15.50146 151.060147 
+L 111.143627 151.060147 
+Q 114.066676 151.060147 114.066676 147.290227 
+L 114.066676 131.004173 
+Q 114.066676 127.234253 111.143627 127.234253 
+L 15.50146 127.234253 
+Q 12.57841 127.234253 12.57841 131.004173 
+L 12.57841 147.290227 
+Q 12.57841 151.060147 15.50146 151.060147 
+z
+" clip-path="url(#p2e26aac70b)" style="fill: #f5f6f7; stroke: #5b6470; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="7.2" y="16.040155" transform="rotate(-0 7.2 16.040155)">a</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="16.553757" y="23.579995" transform="rotate(-0 16.553757 23.579995)">Issue-time information</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="63.322543" y="44.022191" transform="rotate(-0 63.322543 44.022191)">Power history</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="63.322543" y="49.958981" transform="rotate(-0 63.322543 49.958981)">ends at issue</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="63.322543" y="75.689588" transform="rotate(-0 63.322543 75.689588)">Issued weather</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="63.322543" y="81.626309" transform="rotate(-0 63.322543 81.626309)">release time ≤ issue</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="63.322543" y="107.356847" transform="rotate(-0 63.322543 107.356847)">Local wind history</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="63.322543" y="113.29358" transform="rotate(-0 63.322543 113.29358)">issue-time proxy</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="63.322543" y="139.024244" transform="rotate(-0 63.322543 139.024244)">ERA5 / future wind</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="63.322543" y="144.960908" transform="rotate(-0 63.322543 144.960908)">retrospective diagnostic</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.3px; font-family: 'Arial'; text-anchor: middle; fill: #18212b" x="65.660983" y="126.329472" transform="rotate(-0 65.660983 126.329472)">available at t_issue</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.3px; font-family: 'Arial'; text-anchor: middle; fill: #18212b" x="65.660983" y="156.488832" transform="rotate(-0 65.660983 156.488832)">t_issue = T − h</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 158.613945 130.853376 
+L 257.997616 130.853376 
+Q 260.920665 130.853376 260.920665 127.083456 
+L 260.920665 35.097408 
+Q 260.920665 31.327488 257.997616 31.327488 
+L 158.613945 31.327488 
+Q 155.690896 31.327488 155.690896 35.097408 
+L 155.690896 127.083456 
+Q 155.690896 130.853376 158.613945 130.853376 
+z
+" clip-path="url(#p5a234eaa3f)" style="fill: #eef2f5; stroke: #aab5bf; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 166.213873 157.9968 
+L 166.213873 7.2 
+" clip-path="url(#p5a234eaa3f)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #5b6470; stroke-width: 0.7"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="151.014017" y="16.040155" transform="rotate(-0 151.014017 16.040155)">b</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="160.367775" y="23.579995" transform="rotate(-0 160.367775 23.579995)">Shared process target</text>
+   </g>
+   <g id="line2d_2">
+    <path d="M 166.213873 84.106368 
+L 171.548438 72.129217 
+L 176.883002 69.199686 
+L 182.217567 69.008716 
+L 187.552132 64.744137 
+L 192.886696 64.036664 
+L 198.221261 73.863523 
+L 203.555826 85.572134 
+L 208.89039 90.164209 
+L 214.224955 93.643375 
+L 219.55952 102.217718 
+L 224.894084 107.464758 
+L 230.228649 101.573289 
+L 235.563214 92.472908 
+L 240.897778 88.682734 
+L 246.232343 84.051818 
+L 251.566908 72.58367 
+" clip-path="url(#p5a234eaa3f)" style="fill: none; stroke: #2166ac; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: middle" x="166.213873" y="135.37728" transform="rotate(-0 166.213873 135.37728)">T</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: middle" x="251.566908" y="135.37728" transform="rotate(-0 251.566908 135.37728)">T+4 h</text>
+   </g>
+   <g id="text_17">
+    <text style="font-style: italic; font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="208.30578" y="47.915136" transform="rotate(-0 208.30578 47.915136)">illustrative path</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: middle; fill: #18212b" x="208.30578" y="142.91712" transform="rotate(-0 208.30578 142.91712)">17 native 15-min nodes</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="208.30578" y="154.980864" transform="rotate(-0 208.30578 154.980864)">0.2 ordered excursion threshold</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mb76736f68a" d="M 0 1.322876 
+C 0.350831 1.322876 0.68734 1.183489 0.935414 0.935414 
+C 1.183489 0.68734 1.322876 0.350831 1.322876 0 
+C 1.322876 -0.350831 1.183489 -0.68734 0.935414 -0.935414 
+C 0.68734 -1.183489 0.350831 -1.322876 0 -1.322876 
+C -0.350831 -1.322876 -0.68734 -1.183489 -0.935414 -0.935414 
+C -1.183489 -0.68734 -1.322876 -0.350831 -1.322876 0 
+C -1.322876 0.350831 -1.183489 0.68734 -0.935414 0.935414 
+C -0.68734 1.183489 -0.350831 1.322876 0 1.322876 
+z
+" style="stroke: #2166ac"/>
+    </defs>
+    <g clip-path="url(#p5a234eaa3f)">
+     <use xlink:href="#mb76736f68a" x="166.213873" y="84.106368" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="171.548438" y="72.129217" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="176.883002" y="69.199686" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="182.217567" y="69.008716" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="187.552132" y="64.744137" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="192.886696" y="64.036664" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="198.221261" y="73.863523" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="203.555826" y="85.572134" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="208.89039" y="90.164209" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="214.224955" y="93.643375" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="219.55952" y="102.217718" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="224.894084" y="107.464758" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="230.228649" y="101.573289" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="235.563214" y="92.472908" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="240.897778" y="88.682734" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="246.232343" y="84.051818" style="fill: #2166ac; stroke: #2166ac"/>
+     <use xlink:href="#mb76736f68a" x="251.566908" y="72.58367" style="fill: #2166ac; stroke: #2166ac"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_7">
+    <path d="M 300.791055 60.582067 
+L 403.44854 60.582067 
+Q 406.37159 60.582067 406.37159 56.812147 
+L 406.37159 37.510157 
+Q 406.37159 33.740237 403.44854 33.740237 
+L 300.791055 33.740237 
+Q 297.868006 33.740237 297.868006 37.510157 
+L 297.868006 56.812147 
+Q 297.868006 60.582067 300.791055 60.582067 
+z
+" clip-path="url(#p31f81d7c4d)" style="fill: #f1f6fc; stroke: #2166ac; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 300.791055 95.265331 
+L 403.44854 95.265331 
+Q 406.37159 95.265331 406.37159 91.495411 
+L 406.37159 72.193421 
+Q 406.37159 68.423501 403.44854 68.423501 
+L 300.791055 68.423501 
+Q 297.868006 68.423501 297.868006 72.193421 
+L 297.868006 91.495411 
+Q 297.868006 95.265331 300.791055 95.265331 
+z
+" clip-path="url(#p31f81d7c4d)" style="fill: #fff7f0; stroke: #d55e00; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 300.791055 129.948595 
+L 403.44854 129.948595 
+Q 406.37159 129.948595 406.37159 126.178675 
+L 406.37159 106.876685 
+Q 406.37159 103.106765 403.44854 103.106765 
+L 300.791055 103.106765 
+Q 297.868006 103.106765 297.868006 106.876685 
+L 297.868006 126.178675 
+Q 297.868006 129.948595 300.791055 129.948595 
+z
+" clip-path="url(#p31f81d7c4d)" style="fill: #f1faf6; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="294.828035" y="16.040155" transform="rotate(-0 294.828035 16.040155)">c</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial'; text-anchor: start" x="304.181792" y="23.579995" transform="rotate(-0 304.181792 23.579995)">Process objects</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="352.119798" y="46.736602" transform="rotate(-0 352.119798 46.736602)">State risk  S</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="352.119798" y="53.638423" transform="rotate(-0 352.119798 53.638423)">Brier · occurrence / return</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="352.119798" y="81.419797" transform="rotate(-0 352.119798 81.419797)">First passage  τ↓</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="352.119798" y="88.321687" transform="rotate(-0 352.119798 88.321687)">conditional RPS · median-MAE</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 7.1px; font-family: 'Arial'; text-anchor: middle" x="352.119798" y="116.103061" transform="rotate(-0 352.119798 116.103061)">Range / path  R, O</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.8px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="352.119798" y="123.004894" transform="rotate(-0 352.119798 123.004894)">CRPS · coverage · order value</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: middle; fill: #18212b" x="352.119798" y="145.933056" transform="rotate(-0 352.119798 145.933056)">one target · separate scores</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.2px; font-family: 'Arial'; text-anchor: middle; fill: #5b6470" x="352.119798" y="154.980864" transform="rotate(-0 352.119798 154.980864)">supporting objects are not a joint path–time claim</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2e26aac70b">
+   <rect x="7.2" y="7.2" width="116.921965" height="150.7968"/>
+  </clipPath>
+  <clipPath id="p5a234eaa3f">
+   <rect x="151.014017" y="7.2" width="116.921965" height="150.7968"/>
+  </clipPath>
+  <clipPath id="p31f81d7c4d">
+   <rect x="294.828035" y="7.2" width="116.921965" height="150.7968"/>
+  </clipPath>
+ </defs>
+</svg>

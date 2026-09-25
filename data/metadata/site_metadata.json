@@ -1,0 +1,21 @@
+{
+  "site": "Pizhou",
+  "dataset_scope": "33-turbine native minute SCADA archive",
+  "confirmed_on": "2026-09-22",
+  "source": "User clarification in the active research task",
+  "source_statement": "就是行政区坐标，风高度为140m",
+  "coordinates": {
+    "latitude": 34.3403,
+    "longitude": 118.0068,
+    "reference": "administrative-area coordinates confirmed for this research",
+    "exact_turbine_location_claimed": false
+  },
+  "onsite_wind_reference_height_m": 140,
+  "height_basis": "User-provided wind height; no additional manufacturer verification claimed",
+  "archived_weather_heights_m": {
+    "gfs_global": 100,
+    "jma_gsm": 10
+  },
+  "height_conversion_applied": false,
+  "existing_raw_data_models_and_scores_changed": false
+}

@@ -1,0 +1,9 @@
+{
+  "seed": 20250925,
+  "shape": [
+    68,
+    16
+  ],
+  "sha256": "df834a940d18ba3f22c5e7a9696d055ba8bee871f743506ce6fd321acf5872c6",
+  "standardization": "per package/lead training-only weather signal mean/std before projection"
+}

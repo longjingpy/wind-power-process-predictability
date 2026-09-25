@@ -1,0 +1,16 @@
+{
+  "capacity_matched_summary.csv": "f0f8a7b3068ddd6c7922d449901fba910c4280e606f995bab124732ab2b7a318",
+  "comparisons.csv": "f3866b0b9c8d4bc7e96335d826e459c5ca0ec5c9be449fef44df1fd8993f7b4d",
+  "feature_manifest.json": "0fc29977a065f9093634abeeecdf46c21de27f21c40ff612caff40398e042a0c",
+  "model_complexity.csv": "1b1ff4a55da49cd2a36ad624aceeed7dfde8dddd8e502cee823fdade815eb5c9",
+  "primary_predictions.npz": "34e50274057719081cbd2213702ccdd3a67db7ecba6b78cfa9a23b6205c8740c",
+  "projection_matrix.json": "3c5863ad4857176f829d9b6db8f739edb6593251636bad02fbe922dbf274ee78",
+  "projection_matrix.npy": "52b5bca466032d5b95396fdb3f6bb9b78a43f8da30501912e98cf7ae54229cca",
+  "protocol.json": "7ff5c7d990687a58801f8f2aaa8ce2c2a44f2c132b36d363a9d72c35867a1eee",
+  "robust_predictions.npz": "d4aac463ab1b17764bc4ef9456ce193e49f12e8f1cd337c61b7b11d68946a060",
+  "seed_sensitivity.csv": "1bb08209d7e3cd69a6ed524276bced75f89b87041cd92e0cdc125a959b068961",
+  "source_manifest.json": "f813f720e50e246005cb1628c13cd3743e3bbb71498afc8ce753e88337b85bd9",
+  "status_zh.md": "0e3bf29fb178b158ebb150cb23e69c348e41300e0d391ae201b4de352aeb9c95",
+  "train_scaler.npz": "30b5e98798ea3d707685b8a753de849dbf3a84db5bcc87e55bd7def36811b9a5",
+  "verification.json": "8512b1a1d85e61372f96c023534f3f9feb9f76df84e843de7f7be24466691fbd"
+}

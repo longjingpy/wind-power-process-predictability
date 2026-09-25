@@ -1,0 +1,18 @@
+{
+  "experiment": "NP035",
+  "question": "Do state and first-passage probabilities exhibit calibration patterns across information arms?",
+  "bins": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "status": "COMPLETE"
+}

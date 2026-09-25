@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-24T12:14:52.527596+00:00",
+  "script": "script/build_next_paper_nature_figures.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "figure": "fig4_target_aligned_routing",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig4_target_aligned_routing.pdf",
+      "sha256": "6c80ba1476a296066992ddc29cf22781cdbad3408eae9b5e16b7bcb9401ca7d8"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig4_target_aligned_routing.svg",
+      "sha256": "227ae2b24259f2f8e4046e03127e6fcfe800981f8b0d726c346decde19e94243"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig4_target_aligned_routing.png",
+      "sha256": "a671bf806929000cf4467bd2eaf5148af9bf578a4f9adfcdb92f03267138f344"
+    }
+  }
+}

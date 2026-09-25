@@ -1,0 +1,24 @@
+{
+  "experiment": "NP029",
+  "stage": "STRICT_PREVIOUS_DAY1_TARGET_ALIGNED_ROUTING",
+  "question": "Does target-aligned routing retain its timing increment under a fixed 24-hour issue-time weather package?",
+  "input": "Frozen NP028 predictions, labels, and issue-time indices; no refit and no test selection",
+  "route": "event state = NP028 joint arm; timing = NP028 power-history arm",
+  "reference": "NP028 joint arm for timing; joint event output retained exactly",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "uncertainty": "Paired 7-day calendar blocks, 2,000 draws, seed41",
+  "source_sha256": {
+    "script/next_paper_previous_day1_routing.py": "e1178a7d81595276bae9ed2759ad95d57210a852c9d729e4964c6d6691a0ef6c",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "outputs/next_paper/np028/protocol.json": "8d2a91975675da06cecb651b408aedaf1f6c2145337570a51dbfbf993894fae6",
+    "outputs/next_paper/np028/test_predictions.npz": "edf32902320350e6748c121789e5e526161e442a5ced921a1c8d6114ee65279e",
+    "outputs/next_paper/np028/test_summary.csv": "2b4e15fd3eb5739fdea4c010875ef79026eb712936eaf8040208fa8bc1f07546"
+  }
+}

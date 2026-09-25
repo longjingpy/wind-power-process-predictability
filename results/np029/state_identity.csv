@@ -1,0 +1,13 @@
+lead_minutes,metric,max_absolute_probability_difference
+15,return_brier,0.0
+15,multiclass_brier,0.0
+60,return_brier,0.0
+60,multiclass_brier,0.0
+120,return_brier,0.0
+120,multiclass_brier,0.0
+240,return_brier,0.0
+240,multiclass_brier,0.0
+480,return_brier,0.0
+480,multiclass_brier,0.0
+720,return_brier,0.0
+720,multiclass_brier,0.0

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "validation_only_threshold_selection": true,
+    "predefined_cost_ratios": true,
+    "test_not_used_for_selection": true,
+    "block_intervals_recomputed": true,
+    "all_methods_and_leads_present": true,
+    "decision_curves_finite": true
+  },
+  "selection_rows": 30,
+  "paired_rows": 24
+}

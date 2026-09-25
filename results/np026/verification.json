@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "frozen_np025_inputs": true,
+    "no_refit_or_test_selection": true,
+    "joint_state_identity": true,
+    "timing_route_recomputed": true,
+    "six_leads": true,
+    "paired_intervals_recomputed": true,
+    "summary_rows_recomputed": true
+  },
+  "summary_rows": 24,
+  "identity_rows": 12
+}

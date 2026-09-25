@@ -1,0 +1,60 @@
+{
+  "experiment": "NP023",
+  "stage": "FROZEN_PROBABILITY_DECISION_VALUE",
+  "question": "Do frozen return-event probabilities change alert decision cost under predefined false-negative/false-positive ratios?",
+  "leads": [
+    15,
+    720
+  ],
+  "cost_ratios_false_negative_over_false_positive": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "threshold_grid": [
+    0.05,
+    0.1,
+    0.15000000000000002,
+    0.2,
+    0.25,
+    0.3,
+    0.35000000000000003,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6000000000000001,
+    0.6500000000000001,
+    0.7000000000000001,
+    0.7500000000000001,
+    0.8,
+    0.8500000000000001,
+    0.9000000000000001,
+    0.9500000000000001
+  ],
+  "methods": [
+    "frequency",
+    "np013_selected",
+    "np014_selected",
+    "np019_selected",
+    "np020_selected"
+  ],
+  "selection": "Each method and lead selects one threshold on validation only by realized cost; ties choose the smaller threshold.",
+  "decision": "alert if return-event probability >= threshold; false positive cost=1; false negative cost=ratio; correct decisions cost=0",
+  "uncertainty": "Paired seven-day calendar-block bootstrap, 2,000 multinomial draws, seed41; intervals describe dependent target windows conditional on frozen probabilities",
+  "scope": "Sensitivity decision curve, not a market invoice or claim of optimal operational cost",
+  "source_sha256": {
+    "script/next_paper_decision_value.py": "ad6fd93f400999499cbba6489d8531879a376a3bb063a359db8dbbfb90f18c0b",
+    "outputs/next_paper/np005/dataset.npz": "3b1bf87a92bfa641562158d9ad48cb9b5cfda817780e1828d9e6d6523b6e6a89",
+    "outputs/next_paper/np013/dataset.npz": "d25957afd6e92fc5799000edf052f5abf6f5c9644a79cba97ec7a19b1caa289f",
+    "outputs/next_paper/np013/validation_predictions.npz": "ec2c3af448830c27befda7b78dc168aa785fa2685075fb5372bb591cfeed1b67",
+    "outputs/next_paper/np013/test_predictions.npz": "70196fe03061fcf7769bebcbab77fc8441a980872bdb42717b72cbe2ef3cbee6",
+    "outputs/next_paper/np014/validation_predictions.npz": "a3a425c9c4ce5a50a7ce9d147aa46fae7e9aaa2d6beffe84e4e952a740056a0e",
+    "outputs/next_paper/np014/test_predictions.npz": "ad993fcaea45fd7342dd4b56c0a54adbc3dc8ca8f239ea8dfc26d46f048da752",
+    "outputs/next_paper/np019/validation_predictions.npz": "7d8782f50a09f8e54d6fc6ecd4dba9db6f2d241b7fcb9dce19d642257cd1ab66",
+    "outputs/next_paper/np019/test_predictions.npz": "68290218f974689bfab67538ff454c625c6e4de3205263d82ffb3803297b21dc",
+    "outputs/next_paper/np020/validation_predictions.npz": "aaa8872aaf5812e2b29199b668dbc2ba32eebb67f9140038220bb7aa8b0a6011",
+    "outputs/next_paper/np020/test_predictions.npz": "e8ce4e42a1a049f1f7c9ee7d32f7ac7c2546c30a64155c3ad27fa7dbb41f1d30"
+  },
+  "dataset_sha256": "d25957afd6e92fc5799000edf052f5abf6f5c9644a79cba97ec7a19b1caa289f"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "NP036",
+  "question": "Does target-aligned route improve coherent no-crossing first-passage score versus direct joint-feature 17-bin model?",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "model": "ExtraTrees 150 trees, depth16, leaf32, seed41",
+  "route": "frozen NP026/NP029 state plus timing outputs",
+  "status": "COMPLETE"
+}

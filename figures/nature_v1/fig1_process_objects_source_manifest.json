@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-25T13:09:19.303836+00:00",
+  "script": "script/build_nature_figures_enhanced.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "figure": "fig1_process_objects",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.pdf",
+      "sha256": "45f9b1ff4aa9fb9c2c9da3fe1602dac5869bac87d0d0d7db4e8ef29095dd67ff"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.svg",
+      "sha256": "30479f3e0f7ec41930451ad8cea55ad90c47ee6e61ff7f84e100055237b7649b"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.png",
+      "sha256": "f45539c71c7389f3112498518da7b65fab42ae1e360981a29a17434ee143d73d"
+    }
+  }
+}

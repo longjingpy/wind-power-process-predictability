@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "rows": 48,
+  "columns": "calendar, wind vector, thermodynamic, full weather",
+  "source": "np025/np028 frozen datasets"
+}

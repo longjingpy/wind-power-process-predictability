@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "decision_rows": 18,
+  "policy_rows": 432,
+  "selection_rows": 108,
+  "paired_rows": 18,
+  "six_leads": true,
+  "np023_leads_preserved": true,
+  "finite_decision_values": true,
+  "validation_only_thresholds": true,
+  "no_alert_and_always_alert_retained": true,
+  "saved_loss_arrays": 216,
+  "artifact_sha256": {
+    "decision_summary.csv": "0287591f424e85d85b83407fa2ed330e01c6f5b0fba1befb984675ac9326acdb",
+    "policy_summary.csv": "f94eec83d06de4cad2080f09f28ae815457a129340ba70edab352994c463894c",
+    "selection_receipt.csv": "1fc4b1ebdd3ee1c52b6146cc6a91895635fdd3f2c669a2669278f75c5719b27a",
+    "paired_intervals.csv": "e0e812ac273825c4b5377b87580bc2969ab6295699174f523dc12b1baaae9c84",
+    "losses.npz": "f7ce4cbbd95b32e77d1aeecdf50eb2048e93c7161ca069f822e20a7899bcd9c1",
+    "bootstrap_weights.npz": "99e3b40764fcb50034152c140570129d4abf5c3a7dd778d6966a7dcac9f9cb3e",
+    "np023_comparison.csv": "0fafca5c782cdb5e6b755aa072a256c1f480ed3f2e354505982b4c8eff96b5d6"
+  }
+}

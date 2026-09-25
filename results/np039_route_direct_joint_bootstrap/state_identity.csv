@@ -1,0 +1,13 @@
+package,route_package,lead_minutes,state_identity_max_abs_diff,label_identity,time_identity
+np025,np026,15,0.0,True,True
+np025,np026,60,0.0,True,True
+np025,np026,120,0.0,True,True
+np025,np026,240,0.0,True,True
+np025,np026,480,0.0,True,True
+np025,np026,720,0.0,True,True
+np028,np029,15,0.0,True,True
+np028,np029,60,0.0,True,True
+np028,np029,120,0.0,True,True
+np028,np029,240,0.0,True,True
+np028,np029,480,0.0,True,True
+np028,np029,720,0.0,True,True

@@ -1,0 +1,74 @@
+{
+  "15__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "15__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "15__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  },
+  "60__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "60__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "60__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  },
+  "120__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "120__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "120__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  },
+  "240__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "240__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "240__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  },
+  "480__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "480__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "480__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  },
+  "720__2": {
+    "method": "no_alert",
+    "validation_cost": 0.2921974522292994
+  },
+  "720__5": {
+    "method": "no_alert",
+    "validation_cost": 0.7304936305732485
+  },
+  "720__10": {
+    "method": "always_alert",
+    "validation_cost": 0.8539012738853503
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset.npz": "6ffc2ab4c59f1d3852e65fcc8d762911e8ad5245161738b69ee7302be803ee94",
+  "information_arms.pdf": "1dc67caa7ab0d83e4a1e83f58f4cf713146eea4ceebbcc2e9b7e85d46f8f87f2",
+  "information_arms.png": "e061affccdd3abde45068e4e833def9dc24c6ee1e044174d4eb61f1713997d3c",
+  "information_increments.pdf": "49e8e7ed075c97aa24d6b63a0901c28aee7b2c99c200a1eca4817b48b3c18e7b",
+  "information_increments.png": "b47b8ff80b914bc8d2945d1305d1660c2fe58fdfc3e6e4b4276a37b9d1ee1577",
+  "protocol.json": "81696eb316930e60280ae457bc924475e8d4d206adf95211931cfd9e3dfb68b7",
+  "support.csv": "6fd3f1e0c27b361f249657abc141e8ecc02a43639c610a11b89d69e111561db8",
+  "test_predictions.npz": "455e86e261aab051634ac7af9e66c59d4a54b775e28d0e9edc98ac3acba8618b",
+  "test_summary.csv": "0d58bcb961fecf8103d3c0147aba28007fcf2ce5c413d1780057037d1100b9d3"
+}

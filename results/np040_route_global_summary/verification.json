@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "rows": 12,
+  "six_leads": true,
+  "metrics": [
+    "conditional_median_mae_minutes",
+    "conditional_rps",
+    "joint_first_passage_RPS"
+  ],
+  "finite_global_draws": true,
+  "no_pointwise_ci_average_columns": true,
+  "source_sha256": {
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/route_direct_intervals.csv": "23187742845749950ecd7e1f65d190e6da752723cfcfc4a7d1db1fec33798905",
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/bootstrap_draws.npz": "b42118d5f3c58fca19fc555efa9f35143f0032d6a3f12e476407e7922958f1d1",
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/bootstrap_weights.npz": "468c2ca7161c488d2631c2a2c880c9f683f7b1b4d6d962e02888453e61269852"
+  }
+}

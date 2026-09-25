@@ -1,0 +1,54 @@
+{
+  "experiment": "NP041",
+  "question": "Does frozen NP008 full rolling state probability reduce alert cost relative to a validation-selected constant policy across all six issue leads?",
+  "source": "NP008 validation/test predictions and NP008 labels; training frequency from NP007 frozen dataset",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "cost_ratios": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "methods": [
+    "np008_full_rolling",
+    "no_alert",
+    "always_alert",
+    "train_frequency",
+    "validation_frequency",
+    "validation_constant"
+  ],
+  "threshold_grid": "0.00 to 1.00 by 0.005; validation-only selection, one test application",
+  "constant_policies": {
+    "no_alert": "never issue an alert",
+    "always_alert": "issue an alert for every window",
+    "train_frequency": 0.2114078768673608,
+    "validation_frequency": 0.1460987261146497,
+    "validation_constant": "lower validation cost of no_alert and always_alert; ties choose no_alert"
+  },
+  "uncertainty": "shared UTC seven-day blocks, 2,000 draws, seed41; frozen predictions",
+  "np023_scope": "comparison receipt retains only NP023 leads 15 and 720 minutes",
+  "source_sha256": {
+    "script/run_np041_all_lead_decision_sensitivity.py": "c4f6ca92a64a31c17ec51c62da436c0688880d5f470ffc605946e0a5d1cb3491",
+    "outputs/next_paper/np008/dataset.npz": "7ed8b468daa1b130fefa1007d755f127cf27e9b6b77ed0c798d855275d371730",
+    "outputs/next_paper/np008/test_predictions.npz": "2f1aa4eccaf3fb107e1d578b9407fdcd59a260119d84fe07979b3dc5ed2c8cb4",
+    "outputs/next_paper/np008/validation_predictions.npz": "f6d616b8c77eed287df9a3e67b3fc658b0968f8136932953f366b0e04e9af1ea",
+    "outputs/next_paper/np007/dataset.npz": "02c42a514e851d2aaed464669bfd6af1578f80c386de004dbd889296f2258be0",
+    "outputs/next_paper/np023/paired_decision_intervals.csv": "d9307716b44d8daf7d6fbbb741531eabde48b3d8b19f4b3176a0c8197e2ef037"
+  },
+  "status": "COMPLETE",
+  "artifact_sha256": {
+    "decision_summary.csv": "0287591f424e85d85b83407fa2ed330e01c6f5b0fba1befb984675ac9326acdb",
+    "policy_summary.csv": "f94eec83d06de4cad2080f09f28ae815457a129340ba70edab352994c463894c",
+    "selection_receipt.csv": "1fc4b1ebdd3ee1c52b6146cc6a91895635fdd3f2c669a2669278f75c5719b27a",
+    "paired_intervals.csv": "e0e812ac273825c4b5377b87580bc2969ab6295699174f523dc12b1baaae9c84",
+    "losses.npz": "f7ce4cbbd95b32e77d1aeecdf50eb2048e93c7161ca069f822e20a7899bcd9c1",
+    "bootstrap_weights.npz": "99e3b40764fcb50034152c140570129d4abf5c3a7dd778d6966a7dcac9f9cb3e",
+    "np023_comparison.csv": "0fafca5c782cdb5e6b755aa072a256c1f480ed3f2e354505982b4c8eff96b5d6"
+  }
+}

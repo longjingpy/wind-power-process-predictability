@@ -1,0 +1,43 @@
+{
+  "figure": "fig8_decision_value",
+  "panels": {
+    "a": "NP023 C=5 absolute test cost for no alert, NP014 and NP019=NP020 at 15/720 min",
+    "b": "NP023 paired gains against NP014 for NP013 and NP019=NP020 at the two registered leads and all three ratios",
+    "c": "NP041 full rolling cost reduction against validation-selected constant policy at six leads and three ratios"
+  },
+  "source_paths": [
+    "np023/test_decision_summary.csv",
+    "np023/paired_decision_intervals.csv",
+    "np013/dataset.npz",
+    "np041_all_lead_decision_sensitivity/decision_summary.csv"
+  ],
+  "source_sha256": {
+    "np023/test_decision_summary.csv": "d4fe830a63ccbd4e0e9913431e8f2129874b9737e5703d2e85dee14a249aad94",
+    "np023/paired_decision_intervals.csv": "d9307716b44d8daf7d6fbbb741531eabde48b3d8b19f4b3176a0c8197e2ef037",
+    "np013/dataset.npz": "d25957afd6e92fc5799000edf052f5abf6f5c9644a79cba97ec7a19b1caa289f",
+    "np041_all_lead_decision_sensitivity/decision_summary.csv": "0287591f424e85d85b83407fa2ed330e01c6f5b0fba1befb984675ac9326acdb"
+  },
+  "style": "Arial/TrueType; NP023 two-lead receipt and NP041 six-lead extension",
+  "sha256": {
+    "fig8_decision_value.pdf": "55752d78dd9f4a6c3387502fe3ee72f09b2d32d5fd1de8ac4b137a1358f1264a",
+    "fig8_decision_value.svg": "3d9fd513e8d6cf96acf1504620f1dd4ba6c6de95540300279e468b4a31a62f0c",
+    "fig8_decision_value.png": "8985572f656f8e69c90df9154129ffd188ef4dbacfb34292f87780ffdb8f1084"
+  },
+  "created_utc": "2026-09-25T13:09:19.417104+00:00",
+  "script": "script/build_nature_figures_enhanced.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.pdf",
+      "sha256": "55752d78dd9f4a6c3387502fe3ee72f09b2d32d5fd1de8ac4b137a1358f1264a"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.svg",
+      "sha256": "3d9fd513e8d6cf96acf1504620f1dd4ba6c6de95540300279e468b4a31a62f0c"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.png",
+      "sha256": "8985572f656f8e69c90df9154129ffd188ef4dbacfb34292f87780ffdb8f1084"
+    }
+  }
+}

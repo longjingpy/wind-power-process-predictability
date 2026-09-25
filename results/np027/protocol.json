@@ -1,0 +1,33 @@
+{
+  "experiment": "NP027",
+  "stage": "TARGET_ALIGNED_ROUTING_MONTHLY_STABILITY",
+  "question": "Does the frozen NP026 target-aligned timing gain persist across UTC months of the Suining test period?",
+  "months": [
+    "2024-06",
+    "2024-07",
+    "2024-08"
+  ],
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "metrics": [
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "input": "Frozen NP025 joint timing and NP026 routed timing predictions; no refit, no month selection",
+  "uncertainty": "Paired 7-day calendar blocks within each UTC month, 2,000 draws, inherited seed41",
+  "source_sha256": {
+    "script/next_paper_routing_monthly_stability.py": "9dcd0a489cfd8ab23ed09b0e3e3f1a2d210db1bc72fc16d3ba5d9dfc18aac5c3",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "outputs/next_paper/np025/test_predictions.npz": "455e86e261aab051634ac7af9e66c59d4a54b775e28d0e9edc98ac3acba8618b",
+    "outputs/next_paper/np026/route_predictions.npz": "0df7a2bc19b81b8eb7a2f966e2fa41e91f7c56310d0bb5596959fbc3841591c2",
+    "outputs/next_paper/np026/routing_summary.csv": "5965ce295a66ed3bd12527ee27d22d2680f7e9d1e6921340b0ca7a948ac09202",
+    "outputs/next_paper/np026/state_identity.csv": "f786535af7d166fd37697d13f4a5b2f2141cc12850450710b6d33ee3c9c1af6b",
+    "outputs/next_paper/np026/protocol.json": "7e2205beca68092f22491eab40fa24e20131e0d349104e942da0b45783ab9fac"
+  }
+}

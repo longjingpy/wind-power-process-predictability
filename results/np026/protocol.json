@@ -1,0 +1,24 @@
+{
+  "experiment": "NP026",
+  "stage": "TARGET_ALIGNED_INFORMATION_ROUTING",
+  "question": "Does routing joint information to process-state risk and power history to first-passage timing improve the process product relative to an all-information timing head?",
+  "input": "Frozen NP025 test predictions, labels, and issue-time indices; no refit and no test selection",
+  "route": "event state = NP025 joint arm; downward first-passage timing = NP025 power arm",
+  "reference": "NP025 joint arm for timing; NP025 joint arm is retained exactly for state risk",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "uncertainty": "Paired 7-day calendar blocks, 2,000 draws, seed41, inherited from NP025",
+  "source_sha256": {
+    "script/next_paper_target_aligned_routing.py": "4c8c54a6cfe9dbca48fb5c5b23c40feac94dc74979a4c09f9d05f40c3516c333",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "outputs/next_paper/np025/protocol.json": "81696eb316930e60280ae457bc924475e8d4d206adf95211931cfd9e3dfb68b7",
+    "outputs/next_paper/np025/test_predictions.npz": "455e86e261aab051634ac7af9e66c59d4a54b775e28d0e9edc98ac3acba8618b",
+    "outputs/next_paper/np025/test_summary.csv": "0d58bcb961fecf8103d3c0147aba28007fcf2ce5c413d1780057037d1100b9d3"
+  }
+}

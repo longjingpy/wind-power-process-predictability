@@ -1,0 +1,32 @@
+{
+  "figure": "fig5_weather_variable_ablation",
+  "source_paths": [
+    "np034_weather_ablation/weather_ablation_summary.csv"
+  ],
+  "source_sha256": {
+    "np034_weather_ablation/weather_ablation_summary.csv": "087c259770651daf183a12834f56806920a4ca56a2d444622ca10b5e24c2ac8e"
+  },
+  "style": "Arial/TrueType, claim-first, enlarged text",
+  "sha256": {
+    "fig5_weather_variable_ablation.pdf": "6648fb7a4710095a3acf7492074059b9e74bdaea00e72d79df3c04176a9d1860",
+    "fig5_weather_variable_ablation.svg": "1b675502984be5f092ea2189fcba296eedbb06427238e0676ba745108732643d",
+    "fig5_weather_variable_ablation.png": "fc74f94638ceb1277f1134165a7d0e3e8d32ff588f7358951b12f2fcf6494c15"
+  },
+  "created_utc": "2026-09-25T13:09:19.370723+00:00",
+  "script": "script/build_nature_figures_enhanced.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.pdf",
+      "sha256": "6648fb7a4710095a3acf7492074059b9e74bdaea00e72d79df3c04176a9d1860"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.svg",
+      "sha256": "1b675502984be5f092ea2189fcba296eedbb06427238e0676ba745108732643d"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.png",
+      "sha256": "fc74f94638ceb1277f1134165a7d0e3e8d32ff588f7358951b12f2fcf6494c15"
+    }
+  }
+}

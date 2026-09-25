@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "rows": 108,
+  "label_checks": [
+    {
+      "package": "np025",
+      "lead_minutes": 15,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    },
+    {
+      "package": "np025",
+      "lead_minutes": 240,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    },
+    {
+      "package": "np025",
+      "lead_minutes": 720,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    },
+    {
+      "package": "np028",
+      "lead_minutes": 15,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    },
+    {
+      "package": "np028",
+      "lead_minutes": 240,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    },
+    {
+      "package": "np028",
+      "lead_minutes": 720,
+      "state_match": 1.0,
+      "arrival_match": 1.0
+    }
+  ],
+  "source": "np025/np028 frozen masks and data/event_clean/site=suining.csv.gz"
+}

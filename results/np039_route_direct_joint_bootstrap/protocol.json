@@ -1,0 +1,62 @@
+{
+  "experiment": "NP039",
+  "question": "Does the target-aligned route improve the coherent 17-bin product and conditional downward timing against direct and constructed joint baselines?",
+  "packages": [
+    "np025/np026",
+    "np028/np029"
+  ],
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "metrics": [
+    "joint_first_passage_RPS",
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "references": [
+    "direct_joint",
+    "constructed_joint"
+  ],
+  "bootstrap": {
+    "calendar": "UTC seven-day blocks anchored at Unix epoch",
+    "block_days": 7,
+    "draws": 2000,
+    "seed": 41,
+    "shared_per_package": true,
+    "weights_reused_across_leads_and_comparators": true,
+    "weights_file": "bootstrap_weights.npz (block_ids, block_values, block_start_ns, weights per package)",
+    "global_aggregation": "equal-weight mean of lead-wise ratios per draw"
+  },
+  "conditional_timing": "arrival_down < 16; non-crossing rows are finite-mask excluded",
+  "direct_model": "ExtraTrees 150 trees, depth16, leaf32, max_features=1.0, seed41",
+  "provenance": {
+    "proper_rps": "Gneiting and Raftery (2007), doi:10.1198/016214506000001437",
+    "block_bootstrap": "K\u00fcnsch (1989), doi:10.1214/aos/1176347265",
+    "timing_definition": "script/next_paper_external_process_validation.py::timing_losses"
+  },
+  "source_sha256": {
+    "script/run_np039_route_direct_joint_bootstrap.py": "6fe1456bc87ce8da540523b784470df0a7b0962f5360b1fa9b3ea1d55d63a535",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "outputs/next_paper/np036_joint_timing_baseline/joint_timing_baseline.csv": "8df5158e97d7722fac97afac85052bbeea3a47099b8ee8f3f0932bddb65c3340",
+    "outputs/next_paper/np025/dataset.npz": "6ffc2ab4c59f1d3852e65fcc8d762911e8ad5245161738b69ee7302be803ee94",
+    "outputs/next_paper/np025/test_predictions.npz": "455e86e261aab051634ac7af9e66c59d4a54b775e28d0e9edc98ac3acba8618b",
+    "outputs/next_paper/np026/route_predictions.npz": "0df7a2bc19b81b8eb7a2f966e2fa41e91f7c56310d0bb5596959fbc3841591c2",
+    "outputs/next_paper/np028/dataset.npz": "d73276ae014af0086e58838c5bceb308582dfc2efc5b34192d86449234fa1c54",
+    "outputs/next_paper/np028/test_predictions.npz": "edf32902320350e6748c121789e5e526161e442a5ced921a1c8d6114ee65279e",
+    "outputs/next_paper/np029/route_predictions.npz": "1bfcbfa65f7c7d6d2c3f67cba7fff3ac2099f1ea0ca8696639375c9119b6ae88"
+  },
+  "status": "COMPLETE",
+  "artifact_sha256": {
+    "predictions.npz": "ef6742381cd0f5e49fc2eacc432230b80d8b92148c1308cb9dc95695e6a31bdf",
+    "bootstrap_weights.npz": "468c2ca7161c488d2631c2a2c880c9f683f7b1b4d6d962e02888453e61269852",
+    "bootstrap_draws.npz": "b42118d5f3c58fca19fc555efa9f35143f0032d6a3f12e476407e7922958f1d1",
+    "route_direct_intervals.csv": "23187742845749950ecd7e1f65d190e6da752723cfcfc4a7d1db1fec33798905",
+    "state_identity.csv": "36eefe4f4dc37e3ebf3ba9aadac5d72e8015833b29f47b90a2991f80b30c55e8",
+    "endpoint_policy.json": "9c7d3d6ab5a45248eef2859ad8eb9209ee410003d157edb179564164a3448450"
+  }
+}

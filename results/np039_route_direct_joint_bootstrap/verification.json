@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "rows": 72,
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "metrics": [
+    "joint_first_passage_RPS",
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "references": [
+    "direct_joint",
+    "constructed_joint"
+  ],
+  "bootstrap_draws": 2000,
+  "finite_rows": true,
+  "state_identity_max_abs_diff": 0.0,
+  "artifact_sha256": {
+    "predictions.npz": "ef6742381cd0f5e49fc2eacc432230b80d8b92148c1308cb9dc95695e6a31bdf",
+    "bootstrap_weights.npz": "468c2ca7161c488d2631c2a2c880c9f683f7b1b4d6d962e02888453e61269852",
+    "bootstrap_draws.npz": "b42118d5f3c58fca19fc555efa9f35143f0032d6a3f12e476407e7922958f1d1",
+    "route_direct_intervals.csv": "23187742845749950ecd7e1f65d190e6da752723cfcfc4a7d1db1fec33798905",
+    "state_identity.csv": "36eefe4f4dc37e3ebf3ba9aadac5d72e8015833b29f47b90a2991f80b30c55e8",
+    "endpoint_policy.json": "9c7d3d6ab5a45248eef2859ad8eb9209ee410003d157edb179564164a3448450"
+  }
+}

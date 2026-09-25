@@ -1,0 +1,149 @@
+{
+  "created_utc": "2026-09-25T13:09:19.419457+00:00",
+  "figures": [
+    {
+      "figure": "fig1_process_objects",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.pdf",
+          "sha256": "45f9b1ff4aa9fb9c2c9da3fe1602dac5869bac87d0d0d7db4e8ef29095dd67ff"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.svg",
+          "sha256": "30479f3e0f7ec41930451ad8cea55ad90c47ee6e61ff7f84e100055237b7649b"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig1_process_objects.png",
+          "sha256": "f45539c71c7389f3112498518da7b65fab42ae1e360981a29a17434ee143d73d"
+        }
+      },
+      "source_manifest": "fig1_process_objects_source_manifest.json"
+    },
+    {
+      "figure": "fig2_process_capability",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig2_process_capability.pdf",
+          "sha256": "ae42b801f40e1690ced4a1d2c3af3a7053af4bded2913c8a388fcde0ab9f925a"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig2_process_capability.svg",
+          "sha256": "e275cf4da8aaeb732cd665a0d3c1c6d0551f1fa5d4cc7366fd1ecceb06c15fda"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig2_process_capability.png",
+          "sha256": "3dc4d97c87ab0e333cfb9889ed1533b87d8675db11eafa3cb40bb8a295ea1280"
+        }
+      },
+      "source_manifest": "fig2_process_capability_source_manifest.json"
+    },
+    {
+      "figure": "fig3_pizhou_core_skill",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig3_pizhou_core_skill.pdf",
+          "sha256": "6783a92a641d967b826cfb9fe837afd7f9d7f3f2151ace0b7cad65557a4fb06e"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig3_pizhou_core_skill.svg",
+          "sha256": "a262ee5d9d9ae4ab759e35ff21fe170e792f9ab45bff387afd25d21cccb0ab00"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig3_pizhou_core_skill.png",
+          "sha256": "b985f4e7224ace4088b4221c940df470616a06175e0239d6c39e0baeb0aaf85f"
+        }
+      },
+      "source_manifest": "fig3_pizhou_core_skill_source_manifest.json"
+    },
+    {
+      "figure": "fig4_information_decomposition_enhanced",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig4_information_decomposition_enhanced.pdf",
+          "sha256": "c6c2941cd5a2ffc38bea65a669e20836651b52596f69c2032e91a08d22a32a94"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig4_information_decomposition_enhanced.svg",
+          "sha256": "7de163b227563805af08dfdeb23decefbd3aea6b53793007f2f94b2a6086a81e"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig4_information_decomposition_enhanced.png",
+          "sha256": "6d6be95303d0678647e418eac390f90beb3d71cc36ae3c3b44b02205b251bb1c"
+        }
+      },
+      "source_manifest": "fig4_information_decomposition_enhanced_source_manifest.json"
+    },
+    {
+      "figure": "fig5_weather_variable_ablation",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.pdf",
+          "sha256": "6648fb7a4710095a3acf7492074059b9e74bdaea00e72d79df3c04176a9d1860"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.svg",
+          "sha256": "1b675502984be5f092ea2189fcba296eedbb06427238e0676ba745108732643d"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig5_weather_variable_ablation.png",
+          "sha256": "fc74f94638ceb1277f1134165a7d0e3e8d32ff588f7358951b12f2fcf6494c15"
+        }
+      },
+      "source_manifest": "fig5_weather_variable_ablation_source_manifest.json"
+    },
+    {
+      "figure": "fig6_target_aligned_routing_landscape",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig6_target_aligned_routing_landscape.pdf",
+          "sha256": "c81efb1e53ed6a9c47d81e71610bc878e41a9b547efb0f56ceb0eeac1972eff9"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig6_target_aligned_routing_landscape.svg",
+          "sha256": "0efe7ceaf8b6cfdf725859f47bda52c206db75b3b7a554832ee33e85e44b9e2b"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig6_target_aligned_routing_landscape.png",
+          "sha256": "74489416496fef3da541f77d1287bee7c6219eb646672bcd6e0a7d585e6477e5"
+        }
+      },
+      "source_manifest": "fig6_target_aligned_routing_landscape_source_manifest.json"
+    },
+    {
+      "figure": "fig7_support_and_stability",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig7_support_and_stability.pdf",
+          "sha256": "09b0176e76b1f6f0d68e2b58be3920dd0bf9ccb10b2b01804425a298cf966df2"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig7_support_and_stability.svg",
+          "sha256": "afc7d60f6c5788f2a001d7cc42a01ea178950c7d167558c1439464b2c09ad3bb"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig7_support_and_stability.png",
+          "sha256": "3a564e152220fbfa5730d2aded2297935ffbddce0f63f999bafd1843a1f72a1c"
+        }
+      },
+      "source_manifest": "fig7_support_and_stability_source_manifest.json"
+    },
+    {
+      "figure": "fig8_decision_value",
+      "files": {
+        "pdf": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.pdf",
+          "sha256": "55752d78dd9f4a6c3387502fe3ee72f09b2d32d5fd1de8ac4b137a1358f1264a"
+        },
+        "svg": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.svg",
+          "sha256": "3d9fd513e8d6cf96acf1504620f1dd4ba6c6de95540300279e468b4a31a62f0c"
+        },
+        "png": {
+          "path": "next_paper/manuscript_figures/nature_v1/fig8_decision_value.png",
+          "sha256": "8985572f656f8e69c90df9154129ffd188ef4dbacfb34292f87780ffdb8f1084"
+        }
+      },
+      "source_manifest": "fig8_decision_value_source_manifest.json"
+    }
+  ]
+}

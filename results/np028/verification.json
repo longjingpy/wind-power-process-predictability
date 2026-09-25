@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "previous_day1_manifest_bound": true,
+    "fixed_24h_issue_offset": true,
+    "three_information_arms": true,
+    "six_leads": true,
+    "chronological_purged_split": true,
+    "no_future_power_inputs": true,
+    "event_probabilities_normalized": true,
+    "timing_probabilities_normalized": true,
+    "summary_rows_recomputed": true,
+    "predictions_replayed": true
+  },
+  "summary_rows": 144
+}

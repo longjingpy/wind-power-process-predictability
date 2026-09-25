@@ -1,0 +1,11 @@
+numpy<3,>=2.1
+pandas<3,>=2.2
+scipy<2,>=1.12
+scikit-learn<1.8,>=1.7
+joblib>=1.4
+
+[data]
+pyarrow>=15
+
+[test]
+pytest>=8

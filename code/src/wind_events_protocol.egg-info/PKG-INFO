@@ -1,0 +1,79 @@
+Metadata-Version: 2.4
+Name: wind-events-protocol
+Version: 0.18.0
+Summary: Protocol-aware measurement of wind-power event structure
+License-Expression: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<3,>=2.1
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: scipy<2,>=1.12
+Requires-Dist: scikit-learn<1.8,>=1.7
+Requires-Dist: joblib>=1.4
+Provides-Extra: data
+Requires-Dist: pyarrow>=15; extra == "data"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
+
+# wind-events-protocol
+
+Protocol-aware detection, matching, representation, clustering and evaluation
+for wind-power event research. The package exposes the same physical-time
+kernels used by the v18 study. Original GNSS code is outside this distribution.
+
+## Install and verify
+
+```sh
+python -m pip install wind_events_protocol-0.18.0-py3-none-any.whl
+wind-events demo --output demo_results
+```
+
+The demo uses explicitly synthetic power and checks a runnable pipeline. Study
+tables and scientific performance are distributed separately.
+
+## Public interfaces
+
+```python
+from wind_events import Protocol, regularize, build_catalog
+from wind_events.matching import pair_catalog
+from wind_events.representation import Representation, fit_cluster
+from wind_events.metrics import contingency, scores_from_counts, block_intervals
+from wind_events.economics import imbalance_cashflow, settlement_opportunity_cost
+```
+
+`Protocol` uses physical minutes. `regularize` retains missing bins and rejects
+ambiguous duplicate observations. `build_catalog` returns event metadata,
+25-point shapes and an audit. `pair_catalog` enforces one-to-one within-unit,
+within-split correspondence and returns both matched pairs and coverage.
+
+Fit `Representation` and clustering only on declared training events; the
+package does not infer the scientific training population for a caller.
+`shape_row=-1` marks an unavailable shape and must not be used as an array index.
+Composite events retain primitive IDs and a turning index. Source-clock status
+travels with every event.
+
+## CSV input
+
+```sh
+wind-events catalog series.csv --site example --turbine T1 --native-minutes 10 --resolution-minutes 30 --timestamp-position end --output events
+```
+
+Required fields are `timestamp`, `power`, and `valid`. Timezone-aware timestamps
+are preferred. Raw source units can be used for shape research with training
+q99.5 normalization; absolute-energy analysis requires verified units and
+capacity or metering metadata.
+
+## Benchmark tracks
+
+- M: structural agreement and coverage on matched event populations.
+- R: real annotation reference, with source and time support recorded.
+- P: external physical-process tracking and calibration.
+- D: forecasting and decision cost with declared information availability.
+
+Scores are reported by track, station and evaluation population. Small support,
+constant partitions, missing weather and unpriced periods have explicit states.
+A static leaderboard should publish only verified completed experiment rows.
+
+Method citations and source-specific definitions are embedded in module
+docstrings. Source SCADA licences remain attached to their providers; the Python
+implementation uses the project's MIT code-release terms.

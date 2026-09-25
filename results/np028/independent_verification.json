@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "weather": {
+    "monthly_response_hashes_checked": 8,
+    "combined_weather_rows": 5856,
+    "wind_missing_fraction": 0.18954918032786885
+  },
+  "power": {
+    "raw_scada_target_and_history_leads_checked": 6
+  },
+  "np028": {
+    "model_fits_replayed": 36,
+    "score_rows_recomputed": 144,
+    "maximum_prediction_difference": 4.440892098500626e-16
+  },
+  "np029": {
+    "routing_rows_recomputed": 12,
+    "state_probability_max_difference": 0.0
+  }
+}

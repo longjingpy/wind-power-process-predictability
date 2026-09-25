@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-24T12:14:52.514239+00:00",
+  "script": "script/build_next_paper_nature_figures.py / script/build_nature_fig1.py",
+  "captions": "outputs/next_paper/manuscript_figures/nature_v1/captions.md",
+  "figure": "fig3_information_decomposition",
+  "files": {
+    "pdf": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig3_information_decomposition.pdf",
+      "sha256": "58267e3710582fdb1a131ea8fd88d34d0f0f21100fd5d5f6f683a96e74ad7868"
+    },
+    "svg": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig3_information_decomposition.svg",
+      "sha256": "f85f7b7f3735df7b653e4222210123ead374be9883b3ba1086d0dac5be0e46b3"
+    },
+    "png": {
+      "path": "next_paper/manuscript_figures/nature_v1/fig3_information_decomposition.png",
+      "sha256": "396b70cc6f65c748241ad6c630824225952b80b94350c17e9c2c0797f83c28ec"
+    }
+  }
+}

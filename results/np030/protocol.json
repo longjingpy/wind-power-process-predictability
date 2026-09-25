@@ -1,0 +1,32 @@
+{
+  "experiment": "NP030",
+  "stage": "STRICT_PREVIOUS_DAY1_ROUTING_MONTHLY_STABILITY",
+  "question": "Does the strict previous-day1 target-aligned route retain its timing increment across UTC months?",
+  "months": [
+    "2024-07",
+    "2024-08"
+  ],
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "metrics": [
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "input": "Frozen NP028 and NP029 predictions; no refit or month selection",
+  "uncertainty": "Paired 7-day calendar blocks within each month, 2,000 draws, seed41",
+  "source_sha256": {
+    "script/next_paper_previous_day1_routing_monthly.py": "07b026772915b18f6580baff00da50fb5357f003c5ce2ca213c0a09e139eb81d",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "outputs/next_paper/np028/test_predictions.npz": "edf32902320350e6748c121789e5e526161e442a5ced921a1c8d6114ee65279e",
+    "outputs/next_paper/np029/route_predictions.npz": "1bfcbfa65f7c7d6d2c3f67cba7fff3ac2099f1ea0ca8696639375c9119b6ae88",
+    "outputs/next_paper/np029/routing_summary.csv": "80e5cc5e3062a2f901715d778452c9b53b68fa09f366122b33a6bfe91e9c6210",
+    "outputs/next_paper/np029/state_identity.csv": "9f9a8e21c6293976f30328c935bc2365f4bff5c00668da4e3c80e7f0e869c62b",
+    "outputs/next_paper/np029/protocol.json": "592a5eb400d739ebde3330734209d87382b7bf1d1921f33401d13ab94f78825d"
+  }
+}

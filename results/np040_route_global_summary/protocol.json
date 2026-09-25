@@ -1,0 +1,34 @@
+{
+  "experiment": "NP040",
+  "question": "What is the equal-weight all-lead route value for 17-bin, conditional RPS and conditional median MAE?",
+  "input": "NP039 route_direct_intervals.csv and bootstrap_draws.npz",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "metrics": [
+    "joint_first_passage_RPS",
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "references": [
+    "direct_joint",
+    "constructed_joint"
+  ],
+  "global_metric": "mean of six lead-wise relative reductions per shared bootstrap draw",
+  "interval": "2.5/97.5 percentiles of the global draw distribution",
+  "removed_columns": [
+    "mean_low_of_pointwise_ci",
+    "mean_high_of_pointwise_ci"
+  ],
+  "source_sha256": {
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/route_direct_intervals.csv": "23187742845749950ecd7e1f65d190e6da752723cfcfc4a7d1db1fec33798905",
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/bootstrap_draws.npz": "b42118d5f3c58fca19fc555efa9f35143f0032d6a3f12e476407e7922958f1d1",
+    "outputs/next_paper/np039_route_direct_joint_bootstrap/bootstrap_weights.npz": "468c2ca7161c488d2631c2a2c880c9f683f7b1b4d6d962e02888453e61269852"
+  },
+  "status": "COMPLETE"
+}

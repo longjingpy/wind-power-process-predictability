@@ -1,0 +1,269 @@
+{
+  "experiment": "NP025",
+  "stage": "THREE_ARM_INFORMATION_DECOMPOSITION",
+  "question": "Which process objects receive information from issue-time power history and external historical-forecast weather when each source is evaluated alone and together?",
+  "site": "suining",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "target": "17 native 15-min nodes; 0.2 excursion; four process classes and downward first passage",
+  "arms": {
+    "power": "16 issue-time power lags plus known target calendar",
+    "weather": "known target calendar plus four weather variables interpolated to 17 target nodes",
+    "joint": "power arm plus weather arm"
+  },
+  "weather_source": "Open-Meteo Historical Forecast API; GFS global; manifest and monthly response hashes retained",
+  "split": "Chronological 60/20/20 blocks with four-hour purge; fixed model budgets; no test selection",
+  "event_model": "ExtraTrees 150 trees, depth16, leaf32, max_features=1.0, seed41",
+  "timing_model": "ExtraTrees 100 trees, depth16, leaf16, max_features=1.0, seed43; occurrence held at training frequency",
+  "uncertainty": "Paired 7-day calendar blocks, 2,000 draws, seed41",
+  "source_sha256": {
+    "script/next_paper_information_decomposition.py": "53e642c244094c89f7d3059b25c5c4de9a434863874deb2a5a6cab7445bbf84a",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "script/next_paper_external_weather_validation.py": "133e7dff52a4ed133207486636a4b3ecd6475f98e416031448c330f764c80a5e",
+    "data/event_clean/site=suining.csv.gz": "ca3293cb4a1cc474b59ab8a8a7ab83e484d6d5908081e6135b4aef0121497078",
+    "data/external_weather/suining_gfs_global_historical_forecast/suining_gfs_global_hourly.csv": "73e60a5e85dd24c5fd33fddc43ac58bfa788b76e7e3d68a05f543a6edf56d05d",
+    "data/external_weather/suining_gfs_global_historical_forecast/manifest.json": "023875eef63aff4122cb86097d6ab9f83dc6cc899a3624cd6f94baabbc4939d6"
+  },
+  "meta": {
+    "site": "suining",
+    "raw_rows": 486482,
+    "turbines": 14,
+    "grid_start": "2023-08-31 16:00:00+00:00",
+    "grid_end": "2024-08-31 15:45:00+00:00",
+    "grid_rows": 35136,
+    "training_scale_cutoff": "2024-04-07 06:15:00+00:00",
+    "scales": {
+      "HRSN01": 2687.1902831,
+      "HRSN02": 2686.550813,
+      "HRSN03": 2686.6226396300003,
+      "HRSN04": 2687.585996,
+      "HRSN05": 2686.49939,
+      "HRSN06": 2686.4139842,
+      "HRSN07": 2686.6459861999997,
+      "HRSN08": 2686.8060008,
+      "HRSN09": 2686.7983836,
+      "HRSN10": 2687.0843896,
+      "HRSN11": 2687.2869994999996,
+      "HRSN12": 2686.8122072,
+      "HRSN13": 2686.7167896,
+      "HRSN14": 2686.605005
+    },
+    "aggregate_valid_fraction": 0.9891279599271403,
+    "minimum_turbine_fraction": 0.8,
+    "first_cut": "2024-04-07 06:15:00+00:00",
+    "second_cut": "2024-06-19 11:00:00+00:00",
+    "weather_variables": [
+      "u100_ms",
+      "v100_ms",
+      "temperature_1000hPa",
+      "surface_pressure"
+    ],
+    "weather_manifest_sha256": "023875eef63aff4122cb86097d6ab9f83dc6cc899a3624cd6f94baabbc4939d6",
+    "support": [
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "train",
+        "windows": 21049,
+        "class_0": 10310,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "validation",
+        "windows": 6559,
+        "class_0": 2513,
+        "class_1": 1358,
+        "class_2": 1436,
+        "class_3": 1252,
+        "down_events": 2688
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "train",
+        "windows": 21046,
+        "class_0": 10307,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "validation",
+        "windows": 6556,
+        "class_0": 2510,
+        "class_1": 1358,
+        "class_2": 1436,
+        "class_3": 1252,
+        "down_events": 2688
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "train",
+        "windows": 21042,
+        "class_0": 10303,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "validation",
+        "windows": 6552,
+        "class_0": 2506,
+        "class_1": 1358,
+        "class_2": 1436,
+        "class_3": 1252,
+        "down_events": 2688
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "train",
+        "windows": 21034,
+        "class_0": 10295,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "validation",
+        "windows": 6544,
+        "class_0": 2506,
+        "class_1": 1358,
+        "class_2": 1428,
+        "class_3": 1252,
+        "down_events": 2680
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "train",
+        "windows": 21018,
+        "class_0": 10279,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "validation",
+        "windows": 6528,
+        "class_0": 2495,
+        "class_1": 1357,
+        "class_2": 1424,
+        "class_3": 1252,
+        "down_events": 2676
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "train",
+        "windows": 21002,
+        "class_0": 10263,
+        "class_1": 3402,
+        "class_2": 3674,
+        "class_3": 3663,
+        "down_events": 7337
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "validation",
+        "windows": 6514,
+        "class_0": 2497,
+        "class_1": 1345,
+        "class_2": 1421,
+        "class_3": 1251,
+        "down_events": 2672
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "test",
+        "windows": 6996,
+        "class_0": 3217,
+        "class_1": 1126,
+        "class_2": 1031,
+        "class_3": 1622,
+        "down_events": 2653
+      }
+    ]
+  }
+}

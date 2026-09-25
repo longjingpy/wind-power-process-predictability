@@ -1,0 +1,26 @@
+{
+  "experiment": "NP037",
+  "question": "Does the information-to-process pattern persist when the excursion threshold changes?",
+  "packages": [
+    "np025",
+    "np028"
+  ],
+  "leads": [
+    15,
+    240,
+    720
+  ],
+  "thresholds": [
+    0.15,
+    0.2,
+    0.25
+  ],
+  "arms": [
+    "power",
+    "weather",
+    "joint"
+  ],
+  "budgets": "event ExtraTrees 150 trees depth16 leaf32 seed41; timing 100 trees depth16 leaf16 seed43",
+  "same_issue_time_cohorts": true,
+  "status": "COMPLETE"
+}

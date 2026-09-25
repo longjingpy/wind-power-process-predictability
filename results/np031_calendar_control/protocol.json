@@ -1,0 +1,14 @@
+{
+  "experiment": "NP031",
+  "question": "Do information-arm gains exceed a calendar-only control?",
+  "sources": {
+    "np025": {
+      "dataset": "outputs/next_paper/np025/dataset.npz",
+      "features": "last four known target-calendar columns from the frozen source dataset"
+    },
+    "np028": {
+      "dataset": "outputs/next_paper/np028/dataset.npz",
+      "features": "last four known target-calendar columns from the frozen source dataset"
+    }
+  }
+}

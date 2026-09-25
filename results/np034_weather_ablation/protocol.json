@@ -1,0 +1,21 @@
+{
+  "experiment": "NP034",
+  "question": "wind-vector versus thermodynamic weather information",
+  "packages": [
+    "np025",
+    "np028"
+  ],
+  "leads": [
+    15,
+    240,
+    720
+  ],
+  "arms": [
+    "calendar",
+    "wind_vector",
+    "thermodynamic",
+    "full_weather"
+  ],
+  "budgets": "event 150 trees; timing 100 trees; depth16; leaf32/16; seeds 41/141",
+  "status": "COMPLETE"
+}

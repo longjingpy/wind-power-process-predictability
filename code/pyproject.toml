@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wind-events-protocol"
+version = "0.18.0"
+description = "Protocol-aware measurement of wind-power event structure"
+readme = "docs/PYTHON_PACKAGE_V18.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=2.1,<3", "pandas>=2.2,<3", "scipy>=1.12,<2", "scikit-learn>=1.7,<1.8", "joblib>=1.4"]
+
+[project.optional-dependencies]
+data = ["pyarrow>=15"]
+test = ["pytest>=8"]
+
+[project.scripts]
+wind-events = "wind_events.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["wind_events*"]

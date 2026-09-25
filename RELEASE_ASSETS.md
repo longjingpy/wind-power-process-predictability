@@ -1,0 +1,1 @@
+The large processed prediction arrays are distributed as the GitHub Release asset processed_arrays.tar.gz. Download it into the repository root and verify its SHA-256 against release_manifest.json before extracting. No raw SCADA or turbine-level private records are included.

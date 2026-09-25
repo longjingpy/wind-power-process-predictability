@@ -1,0 +1,407 @@
+Metadata-Version: 2.4
+Name: WindPowerForcast
+Version: 0.1.0
+Summary: for 15min - 4h forcast
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py==2.3.1
+Requires-Dist: affine==2.4.0
+Requires-Dist: aiohappyeyeballs==2.6.1
+Requires-Dist: aiohttp==3.13.2
+Requires-Dist: aiosignal==1.4.0
+Requires-Dist: asttokens==3.0.0
+Requires-Dist: async-timeout==5.0.1
+Requires-Dist: attrs==25.4.0
+Requires-Dist: backcall==0.2.0
+Requires-Dist: beautifulsoup4==4.14.2
+Requires-Dist: bleach==6.2.0
+Requires-Dist: certifi==2025.10.5
+Requires-Dist: cffi==2.0.0
+Requires-Dist: charset-normalizer==3.4.4
+Requires-Dist: click==8.1.8
+Requires-Dist: click-plugins==1.1.1.2
+Requires-Dist: cligj==0.7.2
+Requires-Dist: cloudpickle==3.1.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: contourpy==1.3.0
+Requires-Dist: cryptography==46.0.3
+Requires-Dist: cycler==0.12.1
+Requires-Dist: dask==2024.8.0
+Requires-Dist: decorator==5.2.1
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: einops==0.8.1
+Requires-Dist: docopt==0.6.2
+Requires-Dist: executing==2.2.1
+Requires-Dist: fastjsonschema==2.21.2
+Requires-Dist: filelock==3.19.1
+Requires-Dist: fonttools==4.60.1
+Requires-Dist: frozenlist==1.8.0
+Requires-Dist: fsspec==2025.10.0
+Requires-Dist: grpcio==1.76.0
+Requires-Dist: idna==3.11
+Requires-Dist: importlib-metadata==8.7.0
+Requires-Dist: importlib-resources==6.5.2
+Requires-Dist: ipython==8.12.3
+Requires-Dist: jedi==0.19.2
+Requires-Dist: jinja2==3.1.6
+Requires-Dist: joblib==1.5.1
+Requires-Dist: jsonschema==4.25.1
+Requires-Dist: jsonschema-specifications==2025.9.1
+Requires-Dist: jupyter-client==8.6.3
+Requires-Dist: jupyter-core==5.8.1
+Requires-Dist: jupyterlab-pygments==0.3.0
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: locket==1.0.0
+Requires-Dist: markdown==3.9
+Requires-Dist: markupsafe==3.0.3
+Requires-Dist: matplotlib==3.10.8
+Requires-Dist: matplotlib-inline==0.2.1
+Requires-Dist: mistune==3.1.4
+Requires-Dist: mpmath==1.3.0
+Requires-Dist: multidict==6.7.0
+Requires-Dist: nbclient==0.10.2
+Requires-Dist: nbconvert==7.16.6
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: netcdf4==1.7.4
+Requires-Dist: networkx==3.2.1
+Requires-Dist: numpy==2.2.6
+Requires-Dist: packaging==25.0
+Requires-Dist: pandas==2.3.3
+Requires-Dist: pandocfilters==1.5.1
+Requires-Dist: parso==0.8.5
+Requires-Dist: partd==1.4.2
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: pillow==11.3.0
+Requires-Dist: pip==25.3
+Requires-Dist: pipreqs==0.5.0
+Requires-Dist: platformdirs==4.4.0
+Requires-Dist: prompt-toolkit==3.0.52
+Requires-Dist: propcache==0.4.1
+Requires-Dist: protobuf==6.33.0
+Requires-Dist: psutil==7.1.3
+Requires-Dist: pure-eval==0.2.3
+Requires-Dist: pyarrow==23.0.0
+Requires-Dist: pycparser==2.23
+Requires-Dist: pygments==2.19.2
+Requires-Dist: pyparsing==3.2.5
+Requires-Dist: python-dateutil==2.9.0.post0
+Requires-Dist: pytz==2025.2
+Requires-Dist: pywin32==311; sys_platform == "win32"
+Requires-Dist: pyyaml==6.0.3
+Requires-Dist: pyzmq==27.1.0
+Requires-Dist: rasterio==1.4.4
+Requires-Dist: referencing==0.36.2
+Requires-Dist: requests==2.32.5
+Requires-Dist: rpds-py==0.27.1
+Requires-Dist: scikit-learn==1.7.2
+Requires-Dist: scipy==1.15.3
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: setuptools==80.9.0
+Requires-Dist: six==1.17.0
+Requires-Dist: skillful==0.8.2
+Requires-Dist: skillmetrics==1.2.4
+Requires-Dist: soupsieve==2.8
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: streamlit>=1.50.0
+Requires-Dist: sympy==1.14.0
+Requires-Dist: tensorboard==2.20.0
+Requires-Dist: tensorboard-data-server==0.7.2
+Requires-Dist: threadpoolctl==3.6.0
+Requires-Dist: tinycss2==1.4.0
+Requires-Dist: toolz==1.1.0
+Requires-Dist: torch==2.8.0+cu128
+Requires-Dist: torch-geometric>=2.6.1
+Requires-Dist: torchaudio==2.8.0+cu128
+Requires-Dist: torchmetrics>=1.8.2
+Requires-Dist: torchvision==0.23.0+cu128
+Requires-Dist: tornado==6.5.2
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: traitlets==5.14.3
+Requires-Dist: typing-extensions==4.15.0
+Requires-Dist: tzdata==2025.2
+Requires-Dist: urllib3==2.5.0
+Requires-Dist: wcwidth==0.2.14
+Requires-Dist: webencodings==0.5.1
+Requires-Dist: werkzeug==3.1.3
+Requires-Dist: xarray==2024.7.0
+Requires-Dist: xlsxwriter==3.2.9
+Requires-Dist: yarg==0.1.9
+Requires-Dist: yarl==1.22.0
+Requires-Dist: zipp==3.23.0
+
+# 15分钟报价风速预报方案（4h 提前量）
+
+## 目标与范围
+- 目标：在时间 `t` 给出 `t+4h` 的 15 分钟“瞬时”风速预报，用于风电报价。
+- 重点先做好风速预测，风速→功率的转换单独建模或后续集成。
+- 方案以 GNN 为核心，不依赖现有项目架构，独立设计数据与训练流程。
+
+## 数据与特征
+### 已确认数据资产（data/ 与 topo/）
+- `data/real/*.csv`：分钟级 SCADA，列包含 `名称`、`时间`、`风速`、`发电机有功功率`。
+- 时间跨度：`2024-07-01 00:00` → `2025-02-01 23:59`（所有风机文件一致）。
+- `topo/landcover_10m.tif`、`topo/srtm_30m.tif`：地表与 DEM 栅格（用于补充地形）。
+
+### SCADA 数据（分钟级）
+- 输入：5 分钟平均风速（必要时由分钟级聚合得到）。
+- 目标：15 分钟时刻的“瞬时”风速，推荐用该 15 分钟窗口末时刻的 1 分钟值作为标签。
+- 特征：风速/风向/功率（若可用）、叶轮转速、温度等；不足时以风速为主。
+- 字段映射：`名称`→`turbine_id`、`时间`→`datetime`、`风速`→`wind_speed`、`发电机有功功率`→`power`。
+  - 具体实现：输入使用 5 分钟均值（`wind_speed`），标签使用分钟级在 5 分钟整点的瞬时值（`wind_speed_inst`），再按 15 分钟步长取 `t+15m ... t+240m`。
+
+### ERA5 与再分析数据（低分辨率）
+- 必需变量：温度 `t2m`、压强 `sp`、湿度（推荐 `2m_dewpoint` 或 `specific_humidity`）。
+- 粗糙度：`forecast_surface_roughness`（作为 `z0` 的来源之一）。
+- 风场变量：`u10/v10`（10m 风速/风向）、`u100/v100`（100m 风速/风向）；140m 需要外推。
+- 先插值到风机坐标，再按时间对齐；作为大尺度背景场用于纠偏与稳定性判别。
+
+### 模型输入（必须包含）
+- 空气密度：由 `t2m/sp/湿度` 计算 `rho`。
+- 风速/风向：SCADA 为主，ERA5 作为背景场校正。
+- 下垫面/地形：`z0`、地表类型、海拔/坡度。
+- 尾流/上游影响：动态图边特征或 Jensen 衰减因子。
+
+### ERA5 缺失与下载
+- 需覆盖 `2024-07-01` → `2025-02-01`，变量包含 `t2m`、`sp`、湿度、`forecast_surface_roughness`、`u10/v10`、`u100/v100`，以及 `friction_velocity`、`surface_sensible_heat_flux`、`surface_latent_heat_flux`（用于 L）。
+- ERA5 单层无 140m，需将 `u100/v100` 外推到 140m。
+- 下载后先做时空插值到风机坐标，再落盘为 `data/ecmwf_real_coords.parquet` 供训练读取。
+
+### ERA5 下载步骤（CDS API 示例）
+- 申请 Copernicus CDS 账号，配置 `~/.cdsapirc`（含 `url` 与 `key`）。
+- 安装依赖：`pip install cdsapi`。
+- 建议下载“单层变量”到 `data/era5/raw/`，频率建议 1h（后续插值到 5min/15min）。
+- 下载范围：使用风场经纬度范围 + 缓冲（建议 ±0.5°）。
+- 示例脚本（单层变量：t2m/sp/2m露点/roughness/u10/v10/u100/v100/摩擦速度/感热/潜热）：
+
+```python
+import cdsapi
+
+c = cdsapi.Client()
+c.retrieve(
+    'reanalysis-era5-single-levels',
+    {
+        'product_type': 'reanalysis',
+        'variable': [
+            '2m_temperature',
+            'surface_pressure',
+            '2m_dewpoint_temperature',
+            'forecast_surface_roughness',
+            '10m_u_component_of_wind',
+            '10m_v_component_of_wind',
+            '100m_u_component_of_wind',
+            '100m_v_component_of_wind',
+            'friction_velocity',
+            'surface_sensible_heat_flux',
+            'surface_latent_heat_flux'
+        ],
+        'year': ['2024', '2025'],
+        'month': ['07','08','09','10','11','12','01','02'],
+        'day': [f'{d:02d}' for d in range(1, 32)],
+        'time': [f'{h:02d}:00' for h in range(24)],
+        'area': [NORTH, WEST, SOUTH, EAST],  # 填入风场范围 + 缓冲
+        'grid': [0.25, 0.25],
+        'format': 'netcdf'
+    },
+    'data/era5/raw/era5_20240701_20250201.nc'
+)
+```
+
+### 140m 风场处理（若 ERA5 无直接 140m）
+- ERA5 单层无 140m；使用 `u100/v100` 外推到 140m。
+- 幂律外推（简化）：`U_140 = U_100 * (140/100)^α`，推荐 `α=0.14`。
+- 贴地对数外推（更稳）：`U_140 = U_100 * ln(140/z0) / ln(100/z0)`，`z0` 可来自 `forecast_surface_roughness` 或地表分类。
+- 对风向：`θ = atan2(v, u)`，外推后的 `u140/v140 = U_140 * (cosθ, sinθ)`。
+- 流程建议：
+  1. 计算 `U_100 = sqrt(u100^2 + v100^2)`，`θ = atan2(v100, u100)`。
+  2. 取 `z0`（`forecast_surface_roughness`），对极小值做下限截断（如 `z0 = max(z0, 1e-4)`）。
+  3. 计算 `U_140`（优先对数外推；缺 `z0` 时用幂律）。
+  4. 反算 `u140 = U_140 * cosθ`、`v140 = U_140 * sinθ`。
+
+### 湿度派生（由露点/气压）
+- 饱和水汽压：`e_s(Td) = 6.112 * exp(17.67 * Td / (Td + 243.5))`（hPa）。
+- 比湿：`q = 0.622 * e_s / (p/100 - 0.378 * e_s)`（p 用 hPa）。
+- 相对湿度：`RH = e_s(Td) / e_s(T)`。
+
+### 空气密度与地形/下垫面
+- 空气密度：`rho = p / (R * T)`，湿度做修正。
+- 地形：海拔、坡度、粗糙度 `z0`、地表类型。
+- 引入 Monin-Obukhov length `L` 作为稳定度特征：`L = -u_*^3 * T_v / (k g (w'θ'_v))`。
+- 若缺少通量，可用 ERA5 的摩擦速度与感热通量近似；`|L|` 小视为强不稳定样本并在构建时剔除。
+- 空气密度计算流程（以 ERA5 为例）：
+  1. 将 `t2m` 转为开尔文 `T`，`sp` 保持 Pa。
+  2. 湿度：若有 `q` 直接用；否则用露点推导 `q`（见“湿度派生”）。
+  3. 虚温：`T_v = T * (1 + 0.61 * q)`。
+  4. 密度：`rho = p / (R_d * T_v)`，`R_d=287.05`。
+- 稳定度 L 计算流程（需要 ERA5 近地面通量）：
+  1. 下载或补齐 `friction_velocity`、`surface_sensible_heat_flux`、`surface_latent_heat_flux`。
+  2. 若通量为累计量（J/m^2），换算为 `W/m^2`（除以 3600）。
+  3. `H = surface_sensible_heat_flux`，`E = surface_latent_heat_flux`。
+  4. `w'θ'_v = H/(rho*cp) + 0.61*T_v*E/(rho*L_v)`，`cp=1004`，`L_v=2.5e6`。
+  5. `L = -u_*^3 * T_v / (k * g * w'θ'_v)`，`k=0.4`，`g=9.81`。
+
+## 采样与因果切分
+- 时间步：输入 5 分钟步长，输出 15 分钟步长。
+- 输入窗长：8 小时（96 步，5 分钟间隔），输出步长：16 步覆盖 4 小时（15 分钟间隔）。
+- 训练/验证：1、2、3 月分别按时间前 80% 训练、后 20% 验证，严格因果。
+- 注：当前 real 数据覆盖 `2024-07`→`2025-02`，若要 3 月切分需补齐 2025-03 数据。
+- 缺测处理：缺失超过阈值的窗口直接丢弃；小缺测用前向填充并打缺测标记。
+
+## 项目规范（空仓库可直接落地）
+### 目录结构
+- `data/raw/scada/`：原始 SCADA（分钟级 CSV）。
+- `data/era5/raw/`：ERA5 原始 NetCDF。
+- `data/coords/`：风机坐标与静态属性（`turbines.csv`）。
+- `data/processed/`：对齐后的特征与标签（Parquet/NPY）。
+- `configs/`：训练与数据配置（YAML）。
+- `scripts/`：数据构建、训练、评估、推理入口。
+- `src/`：模型、数据集、图构建、评估模块。
+- `models/`：保存权重与元信息。
+- `outputs/`：实验日志、指标、预测与图表。
+
+### 数据规范
+- SCADA 编码：`gbk/gb18030`；必须包含 `名称/时间/风速/发电机有功功率`。
+- 时间标准：统一为本地时区 `UTC+8`，所有数据对齐到 5 分钟整点。
+- 坐标文件：`data/real/whereTurbins.csv`（经纬度/海拔）或 `data/coords/turbines.csv`（推荐格式）。
+- SCADA 输出：`data/processed/scada_5min.parquet`（输入均值）、`data/processed/scada_minute.parquet`（瞬时标签源）。
+- ERA5 原始：保留 1h 频率，插值后写入 `data/processed/era5_turbines.parquet`。
+- 特征文件：`data/processed/features_{yyyymm}.parquet`（按月切分）。
+
+### 配置参数（configs/base.yaml）
+- `data.timezone`、`data.window_in`、`data.horizon`、`data.step_in`、`data.step_out`。
+- `graph.k`、`graph.sigma`、`graph.power_p`、`graph.beta`、`graph.z_scale`。
+- `model.type`（`A`/`B`）、`model.lstm_hidden`、`model.tcn_channels`。
+- `train.batch_size`、`train.lr`、`train.epochs`、`train.seed`、`train.patience`。
+- `loss.w1`、`loss.wall`、`loss.stability_weight`。
+
+### 脚本入口
+- `scripts/prepare_scada.py`：清洗、重采样、对齐风机 ID。
+- `scripts/topo_extract.py`：从 `topo/*.tif` 提取海拔、坡度、地表类型等静态特征。
+- `scripts/download_era5.py`：ERA5 下载与切片。
+- `scripts/interp_era5.py`：ERA5 插值到风机坐标。
+- `scripts/build_dataset.py`：构建训练样本与标签。
+- `scripts/train.py`：训练与保存权重。
+- `scripts/eval.py`：评估指标与对比图。
+- `scripts/forecast.py`：滚动推理与在线更新。
+
+### 训练规范
+- 固定随机种子，日志包含数据版本、配置哈希、代码版本。
+- 保存最优与最后一次权重，优先以第 1 步指标早停。
+- 评估输出包含分月、分风速段、分稳定度 `L` 的统计。
+
+### 输出规范
+- `models/{model_name}/{run_id}/model.pt`：权重；`meta.json`：训练与数据元信息。
+- `outputs/{run_id}/metrics.json`：`nMAE/nRMSE/step1` 等关键指标。
+- `outputs/{run_id}/predictions/`：逐风机或场级 16 步预测。
+- `outputs/{run_id}/plots/`：误差分布、时序对比、分层统计图。
+
+### 模型规范
+- 方案 A：输出 shape `[N, H]`，再做场级聚合。
+- 方案 B：输出 shape `[H]`，直接为场级风速。
+- 所有模型必须支持动态邻接 `A_t` 与静态邻接融合。
+
+### 假设与前置条件
+- SCADA 数据时间戳可靠，且所有风机时间对齐误差 ≤ 1 分钟。
+- 风机坐标与高度可用（若缺失，用 `topo_extract.parquet` 的海拔填充）。
+- ERA5 下载完成并覆盖 `2024-07-01`→`2025-02-01`。
+- 训练与验证严格按时间切分，不允许跨月混用。
+
+### 执行流程（空仓库落地顺序）
+1. `scripts/prepare_scada.py`：清洗与重采样 SCADA → `data/processed/scada_5min.parquet`。
+2. `scripts/topo_extract.py`：提取地形/下垫面 → `data/topo_extract.parquet`。
+3. `scripts/download_era5.py`：下载 ERA5 → `data/raw/era5/era5_*.nc`。
+4. `scripts/interp_era5.py`：插值 ERA5 → `data/processed/era5_turbines.parquet`。
+5. `scripts/build_dataset.py`：构建样本 → `data/processed/features_{yyyymm}.parquet`。
+6. `scripts/train.py`：训练并保存权重 → `models/{model_name}/{run_id}/model.pt`。
+7. `scripts/eval.py`：生成指标与图表 → `outputs/{run_id}/metrics.json`。
+8. `scripts/forecast.py`：滚动推理 → `outputs/{run_id}/predictions/`。
+
+### 验证流程
+- 数据验证：检查每月样本数量、缺测率、风速分布是否漂移。
+- 特征验证：ERA5 与 SCADA 时间对齐误差 ≤ 5 分钟。
+- 训练验证：loss 单调下降且第 1 步指标收敛。
+- 推理验证：与持久性基线对比，4h 步长 nMAE 必须降低。
+- 指标验证：以 MAE、RMSE、MSE、R^2 评估整体与 step1 表现，并分风速段、分稳定度统计。
+
+### 评估指标
+- MSE = (1/n) * sum_{i=1..n} (y_i - yhat_i)^2
+- MAE = (1/n) * sum_{i=1..n} |y_i - yhat_i|
+- RMSE = sqrt( (1/n) * sum_{i=1..n} (y_i - yhat_i)^2 )
+- R^2 = 1 - [sum_{i=1..n} (y_i - yhat_i)^2] / [sum_{i=1..n} (y_i - ybar)^2]
+- 其中 y_i 为观测值，yhat_i 为预测值，ybar 为观测均值。
+- 同时输出百分比指标：以观测均值做归一化，得到 `mae_pct`、`rmse_pct`、`mse_pct`。
+
+### 脚本注释规范（每个文件头部必须包含）
+- `目的`：说明该脚本的核心职责。
+- `输入`：列出关键输入文件及字段。
+- `输出`：列出关键输出路径。
+- `前置`：依赖的上游脚本或数据。
+- `后续`：该脚本完成后进入的下游步骤。
+- 示例模板：
+
+```python
+"""
+目的: 清洗与重采样 SCADA 到 5min 频率。
+输入: data/raw/scada/*.csv (名称, 时间, 风速, 发电机有功功率)
+输出: data/processed/scada_5min.parquet
+前置: 原始 SCADA 已落盘。
+后续: scripts/build_dataset.py
+"""
+```
+
+## 动态图构建（尾流 + 下垫面）
+- 静态图：按风机坐标做 kNN（建议 k=4~6），边权 `exp(-dist/σ)`。
+- 动态修正：根据实时风向 `θ` 调整边权，保留上游风机的主导影响。
+- 建议边权：
+  - `φ_ij = atan2(y_j - y_i, x_j - x_i)`（i→j 方位角）
+  - `θ_t = atan2(v10_t, u10_t)`（风向）
+  - `w_ij(t) = exp(-d_ij/σ) * max(0, cos(θ_t - φ_ij))^p * f(z0,坡度)`
+  - `f = exp(-|Δz|/z_scale) * (z0_i z0_j)^α`（地形衰减）
+- 可加入简化尾流：Jensen 模型衰减因子作为边特征。
+- 推荐归一化：`A_t = D_t^{-1} W_t`（行归一化），并与可学习邻接 `A_learned` 融合：`A = β A_t + (1-β) A_learned`。
+
+## 模型结构（两种方案对比）
+### 方案 A：风机逐点预报 + 场级整合
+- 时间编码：LSTM + stacking（多层堆叠，带残差）。
+- 空间编码：Temporal Conv + Adaptive Graph（动态图卷积或 AGCRN 风格）。
+- 输出：每台风机 16 步风速，再求和/加权得到场级风速或场功率。
+- 优点：稳定、可解释、利于风机级校正。
+
+### 方案 B：GNN 直出场级风速
+- 同样的 LSTM 时间编码 + 动态图卷积。
+- 图级 readout（attention pooling），直接输出 16 步场级风速。
+- 优点：模型更简洁；风险是弱化了风机差异。
+
+## 超参建议（起步版）
+- 输入步长：`T_in=96`（8h × 5min），输出步长：`H=16`（4h × 15min）。
+- LSTM：`layers=2~3`，`hidden=128`，`dropout=0.1`，stacking 残差连接。
+- Temporal Conv：`channels=64→128`，`kernel=3/5`，`dilation=1/2/4`。
+- 图参数：`k=4~6`，`σ=median(d_ij)`，`p=2`，`β=0.7`（物理图占比）。
+- 训练：`batch=64`，`lr=1e-3`，`weight_decay=1e-4`，`epochs=50~100`，早停=10。
+- 损失权重：`w1=3`，`w_all=1`；强不稳定样本（如 `|L|<50m`）在数据构建阶段剔除。
+
+## 训练与损失设计
+- 训练目标：主损失聚焦 `t+15min` 对应的第 1 步，次损失覆盖 1–16 步。
+- 建议损失：`L = w1 * MAE(step1) + w_all * MAE(steps1-16)`；`w1 > w_all`。
+- 物理约束：风速非负、上限约束（如 0–40m/s），违背则加罚。
+- 稳定度过滤：`|L|` 小（强不稳定）样本直接剔除，以保持热力稳定状态。
+
+## 终生学习与滚动预报
+- 维护“基础模型 + 在线增量”双权重：基础模型稳定，在线模型吸收最新 7 天数据。
+- 采用滑动窗口重训练或低学习率微调；使用回放缓存避免遗忘。
+- 输出策略：在线模型为主，基础模型作兜底，触发异常时回退。
+
+## 评估指标与验收
+- 评估重点：第 1 步（15min 提前量）的 15 分钟风速误差。
+- 指标：`nMAE / nRMSE`（归一化到风电场风速或额定风速区间）。
+- 分层评估：按稳定度 `L`、风速分段、季节分段统计。
+- 基线：持久性预测（`t` 时刻风速）、纯 LSTM 无图版本。
+
+## 输出物与里程碑
+- 数据集：`x_seq (T×F×N)`、`y_seq (H×N)`，附带时间戳与稳定度标记。
+- 实验对比：方案 A vs B；动态 vs 静态图；有无 ERA5 融合。
+- 交付物：模型权重、指标表、案例曲线（15 分钟瞬时风速对比）。
+
+## 风险与注意事项
+- 仅 SCADA 预测 4h 可能受限于风场外部驱动，ERA5 融合对泛化很关键。
+- “瞬时”标签需明确定义（15 分钟末时刻 1 分钟值），否则误差不可控。
+- 保证训练/验证的严格时间切分，避免信息泄露导致虚高指标。

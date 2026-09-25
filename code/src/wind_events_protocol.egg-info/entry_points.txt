@@ -1,0 +1,2 @@
+[console_scripts]
+wind-events = wind_events.cli:main

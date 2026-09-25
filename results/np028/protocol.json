@@ -1,0 +1,272 @@
+{
+  "experiment": "NP028",
+  "stage": "STRICT_ISSUE_TIME_PREVIOUS_DAY1_WEATHER",
+  "question": "Does a fixed previous-day1 external GFS package provide process-state information under a strict issue-time contract?",
+  "site": "suining",
+  "support_period": "2024-01 through 2024-08",
+  "leads": [
+    15,
+    60,
+    120,
+    240,
+    480,
+    720
+  ],
+  "target": "17 native 15-min nodes; 0.2 excursion; four classes and downward first passage",
+  "arms": {
+    "power": "16 issue-time power lags plus target calendar",
+    "weather": "target calendar plus previous_day1 u100/v100, surface pressure, and 2m temperature",
+    "joint": "power arm plus previous_day1 weather arm"
+  },
+  "weather_source": "Open-Meteo Previous Runs API; GFS global; all weather values are fixed 24 h before valid time",
+  "split": "Chronological 60/20/20 support-period blocks with four-hour purge; fixed budgets; no test selection",
+  "event_model": "ExtraTrees 150 trees, depth16, leaf32, max_features=1.0, seed41",
+  "timing_model": "ExtraTrees 100 trees, depth16, leaf16, max_features=1.0, seed43; occurrence held at training frequency",
+  "uncertainty": "Paired 7-day calendar blocks, 2,000 draws, seed41",
+  "source_sha256": {
+    "script/next_paper_previous_day1_weather_validation.py": "67e7dd648e0a452d424673700380a9a7bb79f241e9a1f4b3d1a814297063bf9f",
+    "script/next_paper_external_process_validation.py": "b5bb7eb8b1e777549c04a5a386ba7b6b29426560639144aae875bf79dd37a679",
+    "data/event_clean/site=suining.csv.gz": "ca3293cb4a1cc474b59ab8a8a7ab83e484d6d5908081e6135b4aef0121497078",
+    "data/external_weather/suining_gfs_previous_day1_202401_202408/suining_gfs_previous_day1_hourly.csv": "cc5aa38bf67dd05aa540b102c31abe8cfd2fbc6681b1bd3f96295cafe2aaed0a",
+    "data/external_weather/suining_gfs_previous_day1_202401_202408/manifest.json": "e179256db8def9724e9a19d033c1f60791e13396df56ab22768a971fdc1c3016"
+  },
+  "meta": {
+    "site": "suining",
+    "raw_rows": 486482,
+    "turbines": 14,
+    "grid_start": "2023-08-31 16:00:00+00:00",
+    "grid_end": "2024-08-31 15:45:00+00:00",
+    "grid_rows": 35136,
+    "training_scale_cutoff": "2024-04-07 06:15:00+00:00",
+    "scales": {
+      "HRSN01": 2687.1902831,
+      "HRSN02": 2686.550813,
+      "HRSN03": 2686.6226396300003,
+      "HRSN04": 2687.585996,
+      "HRSN05": 2686.49939,
+      "HRSN06": 2686.4139842,
+      "HRSN07": 2686.6459861999997,
+      "HRSN08": 2686.8060008,
+      "HRSN09": 2686.7983836,
+      "HRSN10": 2687.0843896,
+      "HRSN11": 2687.2869994999996,
+      "HRSN12": 2686.8122072,
+      "HRSN13": 2686.7167896,
+      "HRSN14": 2686.605005
+    },
+    "aggregate_valid_fraction": 0.9891279599271403,
+    "minimum_turbine_fraction": 0.8,
+    "first_cut": "2024-06-13 14:15:00+00:00",
+    "second_cut": "2024-07-23 01:00:00+00:00",
+    "weather_start": "2024-02-16 06:00:00+00:00",
+    "weather_end": "2024-08-31 15:45:00+00:00",
+    "issue_offset_hours": 24,
+    "weather_variables": [
+      "u100_ms",
+      "v100_ms",
+      "surface_pressure_previous_day1",
+      "temperature_2m_previous_day1"
+    ],
+    "weather_manifest_sha256": "e179256db8def9724e9a19d033c1f60791e13396df56ab22768a971fdc1c3016",
+    "support": [
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "train",
+        "windows": 10909,
+        "class_0": 4518,
+        "class_1": 2133,
+        "class_2": 2214,
+        "class_3": 2044,
+        "down_events": 4258
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 15,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "train",
+        "windows": 10906,
+        "class_0": 4515,
+        "class_1": 2133,
+        "class_2": 2214,
+        "class_3": 2044,
+        "down_events": 4258
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 60,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "train",
+        "windows": 10902,
+        "class_0": 4511,
+        "class_1": 2133,
+        "class_2": 2214,
+        "class_3": 2044,
+        "down_events": 4258
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 120,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "train",
+        "windows": 10894,
+        "class_0": 4511,
+        "class_1": 2133,
+        "class_2": 2206,
+        "class_3": 2044,
+        "down_events": 4250
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 240,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "train",
+        "windows": 10878,
+        "class_0": 4500,
+        "class_1": 2132,
+        "class_2": 2202,
+        "class_3": 2044,
+        "down_events": 4246
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 480,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "train",
+        "windows": 10864,
+        "class_0": 4502,
+        "class_1": 2120,
+        "class_2": 2199,
+        "class_3": 2043,
+        "down_events": 4242
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "validation",
+        "windows": 3755,
+        "class_0": 1495,
+        "class_1": 657,
+        "class_2": 591,
+        "class_3": 1012,
+        "down_events": 1603
+      },
+      {
+        "site": "suining",
+        "lead_minutes": 720,
+        "split": "test",
+        "windows": 3772,
+        "class_0": 1877,
+        "class_1": 567,
+        "class_2": 540,
+        "class_3": 788,
+        "down_events": 1328
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "primary_analysis": "all six leads",
+  "metrics": [
+    "joint_first_passage_RPS",
+    "conditional_rps",
+    "conditional_median_mae_minutes"
+  ],
+  "conditional_mask": "finite arrival_down < 16 rows only",
+  "global_summary": "equal-weight mean of six lead-wise relative reductions per bootstrap draw",
+  "local_values": "descriptive; no lead-specific validation/test endpoint selection"
+}
