@@ -81,12 +81,12 @@ def main() -> None:
     # assets. The Git-tracked manifest and verification receipts remain small.
     asset_root = OUT / "release_assets"
     asset_root.mkdir(parents=True, exist_ok=True)
+    asset_path = asset_root / "processed_arrays.tar.gz"
     large_files = [
         p for p in OUT.rglob("*")
-        if p.is_file() and ".git" not in p.parts and p.stat().st_size > 90_000_000
+        if p.is_file() and p != asset_path and ".git" not in p.parts and p.stat().st_size > 90_000_000
     ]
-    asset_path = asset_root / "processed_arrays.tar.gz"
-    if asset_path.exists():
+    if large_files and asset_path.exists():
         asset_path.unlink()
     if large_files:
         with tarfile.open(asset_path, "w:gz") as tar:

@@ -1,8 +1,8 @@
 {
   "release": "wind-power-process-predictability",
-  "created_utc": "2026-09-25T15:00:47.940415+00:00",
+  "created_utc": "2026-09-25T15:06:56.404186+00:00",
   "raw_private_inputs_excluded": true,
-  "file_count": 321,
+  "file_count": 322,
   "files": {
     ".gitignore": "fc4802b7a43089cb0b1c4d7cf093314cfcc9f1403ec5f5718ca40a019427abe2",
     "CITATION.cff": "d8b59da6e604975ab991049d102cb82c91404a305c66082bc6b4eb2cecb5ec53",
@@ -33,7 +33,7 @@
     "code/script/build_next_paper_submission_bundle.py": "c2691aab0e361de7f42de666f9797f475209b05550ebf77d783617f921cf9099",
     "code/script/build_next_paper_submission_tables.py": "083ededf06bd4b3c7924b5cc12820bb153553a2754ee5ce86949c547e682313d",
     "code/script/build_next_paper_titlepage_review_pdf.py": "7040568b835a5d7fa62eeea1b0c4a4bbc6691f7243245028ebb2638c580f6ca6",
-    "code/script/build_public_release_next_paper.py": "ebdb450c7976066e50c8baa8d6c3077e19666fb3a3c9e7c23b9605f84c8780b3",
+    "code/script/build_public_release_next_paper.py": "62dfe5e75098ecca5ab8f8d2704d8486a651a32386de0905552a38f63d366938",
     "code/script/build_renewable_energy_submission_tex.py": "ce53c270aeb104a1f1f97f55942f5fbfc41bc8a834301215e596ef6fd9673476",
     "code/script/build_supplementary_v18.py": "fdb63f04c0e6ffe72dffce231a0068977c89bdae2d54e87c20a3cde5aa16c217",
     "code/script/build_v18_manuscript.py": "2401f8726b0a80b1dac37fe1ca947c9521f0df0d60ab55dbd6e3c4ca6bb66d93",
@@ -202,6 +202,7 @@
     "manuscript/references.bib": "6280cbcd12a52292ca766ad567c407f74e9d551605abbb778bcf7aa16c6b4481",
     "manuscript/supplement.md": "c650d1b276c9ec3bcbd41f11e8ab2488519fe6be2e1c9e64f317fcd672794a92",
     "manuscript/supplement.pdf": "7fdc71b0fc26a21e78f4b9af1f9ab0582b326cf83d0009df7de8b4e6c3a0c0bd",
+    "release_assets/processed_arrays.tar.gz": "27125ab73637d674f9dacbe9f52bc417c0f4d5eaaf6f8a43afe15ea76e310e35",
     "requirements.txt": "def4810192aa6d66babc7c150bb405e817672b7f254d0fab51fa842d99714a32",
     "results/np023/decision_value.pdf": "0c8f0ef8c38cb2623f59279d3db087a970838a98d058a3ecfc95cde3053b62eb",
     "results/np023/decision_value.png": "0342f6793757ee0ddd9460b8d9a14d70a45fbae7b6a5cd04a4e470361fd08ef8",
@@ -327,6 +328,6 @@
     "results/np041_all_lead_decision_sensitivity/verification.json": "1823b0bba802fe941f9dd8c432566d4409059221ca34954460f31bd5f76ad7ea"
   },
   "release_assets": {
-    "processed_arrays.tar.gz": "73bcd8e4aaf566b1ae1bc5d8376572bca215c6a4225c7b151e2ba5b5dbbd10d0"
+    "processed_arrays.tar.gz": "27125ab73637d674f9dacbe9f52bc417c0f4d5eaaf6f8a43afe15ea76e310e35"
   }
 }
