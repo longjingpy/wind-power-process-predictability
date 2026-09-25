@@ -181,7 +181,10 @@ without an account.
 """,
         encoding="utf-8",
     )
-    files = [p for p in OUT.rglob("*") if p.is_file() and ".git" not in p.parts]
+    files = [
+        p for p in OUT.rglob("*")
+        if p.is_file() and ".git" not in p.parts and p.name != "release_manifest.json"
+    ]
     manifest = {
         "release": "wind-power-process-predictability",
         "created_utc": pd.Timestamp.utcnow().isoformat(),

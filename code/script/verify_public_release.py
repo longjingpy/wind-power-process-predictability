@@ -44,6 +44,8 @@ def main() -> None:
         verification = root / "results" / tag / "verification.json"
         assert json.loads(verification.read_text())["status"] == "PASS"
     for rel, expected in manifest["files"].items():
+        if rel == "release_manifest.json":
+            continue
         p = root / rel
         if not p.exists():
             # Large processed arrays are release assets and are verified after
