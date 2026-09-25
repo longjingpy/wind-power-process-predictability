@@ -155,7 +155,7 @@ Wind-power events contain forecast objects with different information horizons. 
 
 ## Data and code availability
 
-The analysis code, processed aggregate/features/labels, frozen predictions, protocols, figures, source manifests and verification records are openly released at https://github.com/longjingpy/wind-power-process-predictability, with a tagged release and SHA-256 manifest. Raw turbine-level SCADA, coordinates, operational-status records and credentials are excluded; processed arrays are public and sufficient for score verification. Public weather inputs retain source attribution and license terms. An anonymous clone can run the verification scripts without an account.
+The analysis code, processed aggregate/features/labels, frozen predictions, protocols, figures, source manifests and verification records are openly released at https://github.com/longjingpy/wind-power-process-predictability, with release v0.1.0 at https://github.com/longjingpy/wind-power-process-predictability/releases/tag/v0.1.0 and a SHA-256 manifest. Raw turbine-level SCADA, coordinates, operational-status records and credentials are excluded; processed arrays are public and sufficient for score verification. Public weather inputs retain source attribution and license terms. An anonymous clone can run the verification scripts without an account.
 
 ## References
 
