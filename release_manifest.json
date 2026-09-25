@@ -325,5 +325,8 @@
     "results/np041_all_lead_decision_sensitivity/selection_receipt.csv": "1fc4b1ebdd3ee1c52b6146cc6a91895635fdd3f2c669a2669278f75c5719b27a",
     "results/np041_all_lead_decision_sensitivity/validation_constant_receipt.json": "e2adf8b993e8f28807e46a087dfecd099b27557fa0b59132f6b057f34523fe7c",
     "results/np041_all_lead_decision_sensitivity/verification.json": "1823b0bba802fe941f9dd8c432566d4409059221ca34954460f31bd5f76ad7ea"
+  },
+  "release_assets": {
+    "processed_arrays.tar.gz": "73bcd8e4aaf566b1ae1bc5d8376572bca215c6a4225c7b151e2ba5b5dbbd10d0"
   }
 }
