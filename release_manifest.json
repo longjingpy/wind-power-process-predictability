@@ -1,6 +1,6 @@
 {
   "release": "wind-power-process-predictability",
-  "created_utc": "2026-09-25T15:06:56.404186+00:00",
+  "created_utc": "2026-09-25T15:53:36.931304+00:00",
   "raw_private_inputs_excluded": true,
   "file_count": 322,
   "files": {
@@ -198,11 +198,11 @@
     "figures/nature_v1/fig8_decision_value_source_manifest.json": "2d5d7b5fd3a2fc5031b748ab034ff75d1251d3fb569889beaf4ad319dce037ce",
     "figures/nature_v1/nature_v1_manifest.json": "a190d192b386ed9ad4804122527ddaa781a013e492cd0cdf5a9348902e45d197",
     "manuscript/main.md": "35d8fc021460da1950be6d07fa66d1258d64bdc40b7bf0446f6e31ddc53a970b",
-    "manuscript/main.pdf": "c78b6356bcf33d8f27c6f9340ab8249be2c625822821bf739011d4f19518a995",
+    "manuscript/main.pdf": "a918f0d868873f3516e4874e5ce6d0d5cb010fab6de5d49563de7998768d6146",
     "manuscript/references.bib": "6280cbcd12a52292ca766ad567c407f74e9d551605abbb778bcf7aa16c6b4481",
     "manuscript/supplement.md": "c650d1b276c9ec3bcbd41f11e8ab2488519fe6be2e1c9e64f317fcd672794a92",
     "manuscript/supplement.pdf": "7fdc71b0fc26a21e78f4b9af1f9ab0582b326cf83d0009df7de8b4e6c3a0c0bd",
-    "release_assets/processed_arrays.tar.gz": "27125ab73637d674f9dacbe9f52bc417c0f4d5eaaf6f8a43afe15ea76e310e35",
+    "release_assets/processed_arrays.tar.gz": "7b63e02cb5eafd672c79a5faa07eabf73cd8e530b2a1ecb52416df7514ddc57d",
     "requirements.txt": "def4810192aa6d66babc7c150bb405e817672b7f254d0fab51fa842d99714a32",
     "results/np023/decision_value.pdf": "0c8f0ef8c38cb2623f59279d3db087a970838a98d058a3ecfc95cde3053b62eb",
     "results/np023/decision_value.png": "0342f6793757ee0ddd9460b8d9a14d70a45fbae7b6a5cd04a4e470361fd08ef8",
@@ -326,8 +326,5 @@
     "results/np041_all_lead_decision_sensitivity/selection_receipt.csv": "1fc4b1ebdd3ee1c52b6146cc6a91895635fdd3f2c669a2669278f75c5719b27a",
     "results/np041_all_lead_decision_sensitivity/validation_constant_receipt.json": "e2adf8b993e8f28807e46a087dfecd099b27557fa0b59132f6b057f34523fe7c",
     "results/np041_all_lead_decision_sensitivity/verification.json": "1823b0bba802fe941f9dd8c432566d4409059221ca34954460f31bd5f76ad7ea"
-  },
-  "release_assets": {
-    "processed_arrays.tar.gz": "27125ab73637d674f9dacbe9f52bc417c0f4d5eaaf6f8a43afe15ea76e310e35"
   }
 }
