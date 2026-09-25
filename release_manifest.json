@@ -1,6 +1,6 @@
 {
   "release": "wind-power-process-predictability",
-  "created_utc": "2026-09-25T14:03:47.534560+00:00",
+  "created_utc": "2026-09-25T15:00:47.940415+00:00",
   "raw_private_inputs_excluded": true,
   "file_count": 321,
   "files": {
@@ -197,8 +197,8 @@
     "figures/nature_v1/fig8_decision_value.svg": "3d9fd513e8d6cf96acf1504620f1dd4ba6c6de95540300279e468b4a31a62f0c",
     "figures/nature_v1/fig8_decision_value_source_manifest.json": "2d5d7b5fd3a2fc5031b748ab034ff75d1251d3fb569889beaf4ad319dce037ce",
     "figures/nature_v1/nature_v1_manifest.json": "a190d192b386ed9ad4804122527ddaa781a013e492cd0cdf5a9348902e45d197",
-    "manuscript/main.md": "f9f69baf066384775732ef245375dab090a46972ca37485c30faba47c1182388",
-    "manuscript/main.pdf": "f0480a00659f498c3b0dcef212c69897dc4f656777b9852b4ed1f5e75de91bdf",
+    "manuscript/main.md": "35d8fc021460da1950be6d07fa66d1258d64bdc40b7bf0446f6e31ddc53a970b",
+    "manuscript/main.pdf": "c78b6356bcf33d8f27c6f9340ab8249be2c625822821bf739011d4f19518a995",
     "manuscript/references.bib": "6280cbcd12a52292ca766ad567c407f74e9d551605abbb778bcf7aa16c6b4481",
     "manuscript/supplement.md": "c650d1b276c9ec3bcbd41f11e8ab2488519fe6be2e1c9e64f317fcd672794a92",
     "manuscript/supplement.pdf": "7fdc71b0fc26a21e78f4b9af1f9ab0582b326cf83d0009df7de8b4e6c3a0c0bd",
