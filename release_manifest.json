@@ -1,6 +1,6 @@
 {
   "release": "wind-power-process-predictability",
-  "created_utc": "2026-09-25T13:47:57.324752+00:00",
+  "created_utc": "2026-09-25T14:03:47.534560+00:00",
   "raw_private_inputs_excluded": true,
   "file_count": 321,
   "files": {
@@ -8,7 +8,7 @@
     "CITATION.cff": "d8b59da6e604975ab991049d102cb82c91404a305c66082bc6b4eb2cecb5ec53",
     "DATA_LICENSE.md": "a59567a95c94cf89cafaa3c1108f70059de941c9987a82631693330ff55415f9",
     "LICENSE": "f74d7d8f1bd01d7831389696c1cc5c659f7e1027f065ff384851cb9fae411aa2",
-    "README.md": "a83c9aaf1ad0dba5aedff4254c404017f03085d0a5267ed7e932baf77f23d3c4",
+    "README.md": "06a5011e85a89464c16fe51c0a311083da1db521a180c85d760ed592f747fe56",
     "RELEASE_ASSETS.md": "5c4b84b82e419ac3945037e6abf9e3e04d97ccbaf3e0897c57d4779e327a8d63",
     "REPRODUCIBILITY.md": "6f9dc5739ffb2deca1937c577fdb501e3154637a78e9e8c7a18b252f490f3501",
     "code/pyproject.toml": "cb2de3b401e93d7937ff8de69ca5324ee91e8bce4045048dab5667899493438c",
@@ -33,7 +33,7 @@
     "code/script/build_next_paper_submission_bundle.py": "c2691aab0e361de7f42de666f9797f475209b05550ebf77d783617f921cf9099",
     "code/script/build_next_paper_submission_tables.py": "083ededf06bd4b3c7924b5cc12820bb153553a2754ee5ce86949c547e682313d",
     "code/script/build_next_paper_titlepage_review_pdf.py": "7040568b835a5d7fa62eeea1b0c4a4bbc6691f7243245028ebb2638c580f6ca6",
-    "code/script/build_public_release_next_paper.py": "c1a1ee4ca353ac9e5b0ccb5afe767a3e4f7b9dd97343ef00e437ca3c4b4025ed",
+    "code/script/build_public_release_next_paper.py": "ebdb450c7976066e50c8baa8d6c3077e19666fb3a3c9e7c23b9605f84c8780b3",
     "code/script/build_renewable_energy_submission_tex.py": "ce53c270aeb104a1f1f97f55942f5fbfc41bc8a834301215e596ef6fd9673476",
     "code/script/build_supplementary_v18.py": "fdb63f04c0e6ffe72dffce231a0068977c89bdae2d54e87c20a3cde5aa16c217",
     "code/script/build_v18_manuscript.py": "2401f8726b0a80b1dac37fe1ca947c9521f0df0d60ab55dbd6e3c4ca6bb66d93",
