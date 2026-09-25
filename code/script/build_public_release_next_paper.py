@@ -42,7 +42,7 @@ def main() -> None:
 
     script_dst = OUT / "code/script"
     for p in (ROOT / "script").glob("*.py"):
-        if p.name.startswith(("run_np", "verify_np", "build_", "refresh_", "next_paper_", "check_public_release")):
+        if p.name.startswith(("run_np", "verify_np", "build_", "refresh_", "next_paper_", "check_public_release", "verify_public_release")):
             copy_file(p, script_dst / p.name)
     for name in ["pyproject.toml", "uv.lock"]:
         copy_file(ROOT / name, OUT / "code" / name)
@@ -107,8 +107,10 @@ Raw SCADA, turbine-level identifiers, coordinates, operational-status records
 and credentials are excluded. Processed arrays are published so the reported
 score arithmetic and NP038-NP041 verification checks can be reproduced.
 
-Install Python >=3.11 from requirements.txt. Run the verification scripts in
-code/script. SHA-256 values are recorded in release_manifest.json.
+Install Python >=3.11 from requirements.txt. Run code/script/verify_public_release.py
+from a clean clone, then download and extract the release asset
+processed_arrays.tar.gz for large-array verification. SHA-256 values are
+recorded in release_manifest.json.
 """,
         encoding="utf-8",
     )
